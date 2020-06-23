@@ -139,3 +139,21 @@ cython_debug/
 
 # Visual Studio Code
 .vscode
+
+# :) :) :) :) :)
+.DS_Store
+.nosync
+
+# ignore pickled files for now
+*.pkl
+
+# secret keys
+notebooks/secret.py
+
+# cord19 data
+**/cord_19_embeddings
+**/cord19/document_parses
+**/cord19/kaggle
+**/cord19/*.pdf
+**/cord19/json_schema.txt
+**/cord19/metadata.*
