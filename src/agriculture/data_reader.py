@@ -1,22 +1,37 @@
-""" Functions used to parse data from the Agriculture dataset
-"""
+from bs4 import BeautifulSoup
 
+from .. import ResearchArticle
 
-def fetch_covid_dataset():
-    pass
+def get_abstract(article_soup):
+    return article_soup.find('abstract').text
 
+def get_authors(article_soup):
+    return [author.find('name').get_text(separator=' ') 
+            for author in article_soup.find_all('contrib', 
+                                        {'contrib-type': 'author'})]
 
-def fetch_pmc_dataset():
-    pass
+def get_full_body(article_soup):
+    return article_soup.find('body').get_text(separator=' ')
 
+def get_title(article_soup):
+    return article_soup.find('article-title').text
 
-def fetch_pmc_article(pmc_id):
-    """ Fetchs an article from Europe PMC with the given id.
+def get_pmc_id(article_soup):
+    return article_soup.find('article-id', {'pub-id-type': 'pmcid'}).text
 
-    Parameter
-    ---------
-    pcm_id : str
-        String with the id of the article to be fetched. It must be of the
-        form 'PCXXXXXXX'.
-    """
-    pass
+def get_references_titles(article_soup):
+    return [reference.find('article-title').text
+            for reference in article_soup.find_all('ref')
+            if reference.find('article-title')]
+
+def get_subjects(article_soup):
+    return [subj.text 
+            for subj in article_soup.find_all('subject')
+            if subj.text.lower() not in ['review', 'article', 'research article']]
+
+def parse_pmc_article(article_xml):
+    soup = BeautifulSoup(article_xml, 'lxml-xml')
+    return ResearchArticle(get_pmc_id(soup), get_title(soup),
+                           get_authors(soup), get_abstract(soup),
+                           get_full_body(soup), get_references_titles(soup),
+                           get_subjects(soup))
