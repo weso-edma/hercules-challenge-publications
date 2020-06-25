@@ -2,6 +2,7 @@ appnope==0.1.0
 attrs==19.3.0
 backcall==0.2.0
 beautifulsoup4==4.9.1
+bokeh==2.1.1
 bleach==3.1.5
 certifi==2020.6.20
 chardet==3.0.4
@@ -53,6 +54,7 @@ python-slugify==4.0.0
 pytz==2020.1
 pyzmq==19.0.1
 requests==2.24.0
+selenium==3.141.0
 Send2Trash==1.5.0
 six==1.15.0
 soupsieve==2.0.1
