@@ -150,6 +150,9 @@ cython_debug/
 # secret keys
 notebooks/secret.py
 
+# agriculture data
+data/agriculture/*.xml
+
 # cord19 data
 **/cord_19_embeddings
 **/cord19/document_parses
