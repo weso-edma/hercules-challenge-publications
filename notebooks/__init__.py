@@ -13,5 +13,13 @@ logger = logging.getLogger()
 logger.setLevel(logging.WARN)
 logging.info("Starting logger")
 
+RANDOM_SEED = 42
+
 DATA_DIR = os.path.join(module_path, 'data')
 RESULTS_DIR = os.path.join(module_path, 'results')
+
+NOTEBOOK_1_RESULTS_DIR = os.path.join(RESULTS_DIR, '1_data_fetching')
+NOTEBOOK_2_RESULTS_DIR = os.path.join(RESULTS_DIR, '2_data_exploration')
+NOTEBOOK_3_RESULTS_DIR = os.path.join(RESULTS_DIR, '3_topic_modeling')
+NOTEBOOK_4_RESULTS_DIR = os.path.join(RESULTS_DIR, '4_named_entity_recognition')
+NOTEBOOK_5_RESULTS_DIR = os.path.join(RESULTS_DIR, '5_topic_labelling')

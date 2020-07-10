@@ -1,4 +1,6 @@
+import dill as pickle
 import numpy as np
+
 
 def get_topic_terms_by_relevance(model, vectorizer, dtm_tf, top_n, lambda_):
     """ Get the term distribution of a topic based on relevance.
@@ -36,3 +38,16 @@ def get_topic_terms_by_relevance(model, vectorizer, dtm_tf, top_n, lambda_):
     relevance = lambda_ * log_ttd + (1 - lambda_) * log_lift
     return [[vectorizer.get_feature_names()[i] for i in topic.argsort()[:-top_n - 1:-1]]
             for topic in relevance]
+
+
+def load_object(output_path):
+    # see https://stackoverflow.com/questions/42960637/python-3-5-dill-pickling-unpickling-on-different-servers-keyerror-classtype
+    pickle._dill._reverse_typemap['ClassType'] = type
+    with open(output_path, 'rb') as file:
+        res = pickle.load(file)
+    return res
+
+
+def save_object(obj, output_path):
+    with open(output_path, 'wb') as file:
+        pickle.dump(obj, file)
