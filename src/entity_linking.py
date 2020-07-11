@@ -1,16 +1,18 @@
 import json
 import requests
 
+from sklearn.base import TransformerMixin, BaseEstimator
+
 from src.utils import WIKIDATA_BASE
 
-class WikidataEntityLinker():
-    def fit(self, X, y, *args):
+
+class WikidataEntityLinker(BaseEstimator, TransformerMixin):
+    def fit(self, X, y=None):
         return self
     
-    def transform(self, X, y, *args):
-        return [self.link_entity(entity) 
-                for doc in X
-                for entity in doc]
+    def transform(self, X, *args, **kwargs):
+        return [[self.link_entity(entity) for entity in doc]
+                for doc in X]
     
     def link_entity(self, entity_label):
         url = f"{WIKIDATA_BASE}/api.php?action=wbsearchentities&search=" + \

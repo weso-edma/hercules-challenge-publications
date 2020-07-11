@@ -1,6 +1,9 @@
+from sklearn.base import TransformerMixin, BaseEstimator
+
 from .graph import get_centrality_algorithm_resuts, get_largest_connected_subgraph
 
-class TopicLabeller():
+
+class TopicLabeller(BaseEstimator, TransformerMixin):
     def __init__(self, graph_builder,
                  r=nxa.centrality.information_centrality,
                  num_labels_per_topic=1,
@@ -13,7 +16,7 @@ class TopicLabeller():
     def fit(self, X, y=None):
         return self
     
-    def transform(self, X, y=None, **kwargs):
+    def transform(self, X, *args, **kwargs):
         return [self.get_topics_labels(topic) for topic in X]
     
     def get_topic_labels(self, topic_graph):
