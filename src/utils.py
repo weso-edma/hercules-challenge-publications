@@ -1,5 +1,22 @@
+import functools
+
 import dill as pickle
 import numpy as np
+
+WIKIDATA_BASE = "https://www.wikidata.org/w"
+
+def empty_if_keyerror(function):
+    """
+    A decorator that wraps the passed in function and
+    returns an empty string if a key error is raised.
+    """
+    @functools.wraps(function)
+    def wrapper(*args, **kwargs):
+        try:
+            return function(*args, **kwargs)
+        except KeyError:
+            return ""
+    return wrapper
 
 
 def get_topic_terms_by_relevance(model, vectorizer, dtm_tf, top_n, lambda_):
@@ -41,6 +58,8 @@ def get_topic_terms_by_relevance(model, vectorizer, dtm_tf, top_n, lambda_):
 
 
 def load_object(output_path):
+    """
+    """
     # see https://stackoverflow.com/questions/42960637/python-3-5-dill-pickling-unpickling-on-different-servers-keyerror-classtype
     pickle._dill._reverse_typemap['ClassType'] = type
     with open(output_path, 'rb') as file:
@@ -49,5 +68,7 @@ def load_object(output_path):
 
 
 def save_object(obj, output_path):
+    """
+    """
     with open(output_path, 'wb') as file:
         pickle.dump(obj, file)
