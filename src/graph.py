@@ -1,4 +1,5 @@
 import json
+import logging
 import networkx as nx
 import networkx.algorithms as nxa
 import requests
@@ -11,6 +12,8 @@ from bokeh.plotting import from_networkx
 
 from .utils import empty_if_keyerror, WIKIDATA_BASE
 
+
+logger = logging.getLogger(__name__)
 
 WIKIDATA_PROPS_EXPAND = ['P31', 'P279', 'P301', 'P361', 'P366',
                          'P527', 'P910', 'P921', 'P2578', 'P2579']
@@ -78,16 +81,19 @@ class WikidataGraphBuilder():
             self.props_to_expand += additional_props
     
     def build_graph(self, topic):
+        logger.info("Started building graph.")
         G = nx.Graph()
         for term in topic:
+            logger.debug("Seed term: %s", term[0])
             term_uri = term[1]
             if term_uri is not None:
                 term_id = term_uri.split('/')[-1]
                 self._add_wd_node_info(G, term_id, None, 0)
+        logger.info("Finished building graph.")
         return G
     
     def _add_wd_node_info(self, graph, term_id, prev_node, curr_hop):
-        print(f"Visiting entity '{term_id}' - Curr hop: {curr_hop}")
+        logger.debug("Visiting entity '%s' - Curr hop: %d", term_id, curr_hop)
         if curr_hop > self.max_hops or term_id == 'Q4167836':
             return
         
@@ -95,6 +101,7 @@ class WikidataGraphBuilder():
         endpoint = f"{WIKIDATA_BASE}/api.php?action=wbgetentities&ids={term_id}&languages=en&format=json"
         res = requests.get(endpoint)
         if res.status_code != 200:
+            logger.warning("There was an error calling endpoint for term %s", term_id)
             raise Error()
         
         content = json.loads(res.text)
