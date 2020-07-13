@@ -8,6 +8,14 @@ from src.utils import WIKIDATA_BASE
 
 
 class WikidataEntityLinker(BaseEstimator, TransformerMixin):
+    """ Link a list of entities to Wikidata.
+
+    This transformer receives entities in a string form, and
+    returns a tuple (entity_name, entity_uri) for each entity
+    with its original name and URI in Wikidata.
+    """
+
+
     def __init__(self):
         self.linked_entities_cache = {}
 
@@ -19,6 +27,19 @@ class WikidataEntityLinker(BaseEstimator, TransformerMixin):
                 for doc in tqdm(X)]
     
     def link_entity(self, entity_label):
+        """ Links a single entity to Wikidata.
+
+        Parameters
+        ----------
+        entity_label : str
+            Name of the entity to be linked.
+        
+        Returns
+        -------
+        (str, str)
+            Tuple where the first element is the name of the entity, and the second
+            one is its 'QID' from Wikidata after linking.
+        """
         if entity_label in self.linked_entities_cache:
             return (entity_label, self.linked_entities_cache[entity_label])
 

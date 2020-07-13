@@ -20,6 +20,20 @@ WIKIDATA_PROPS_EXPAND = ['P31', 'P279', 'P301', 'P361', 'P366',
 
 
 def build_graph_plot(G, title=""):
+    """ Return a Bokeh plot of the given networkx graph
+
+    Parameters
+    ----------
+    G: :obj:`networkx.Graph`
+        Networkx graph instance to be plotted.
+    title: str
+        Title of the final plot
+    
+    Returns
+    -------
+    :obj:`bokeh.models.plot`
+        Bokeh plot of the graph.
+    """
     plot = Plot(plot_width=400, plot_height=400,
                 x_range=Range1d(-1.1, 1.1), y_range=Range1d(-1.1, 1.1))
     plot.title.text = title
@@ -41,17 +55,30 @@ def build_graph_plot(G, title=""):
 
 
 def get_centrality_algorithm_results(g, algorithm, stop_uris, top_n):
-        metrics = algorithm(g)
-        metrics = {key: val for key, val in metrics.items()
-                   if g.nodes[key]['n'] != 0
-                   and key not in stop_uris}
-        best_qids = sorted(metrics, key=metrics.get, reverse=True)[:top_n]
-        return [(g.nodes[qid]['label'], metrics[qid]) for qid in best_qids]
+    """ Return top n nodes from a graph based on the given centrality algorithm.
+
+    Parameters
+    ----------
+    g: :obj:`networkx.graph`
+    algorithm: callable
+    stop_uris: list of str
+    top_n: int
+
+    Returns
+    -------
+    list of (str, float)
+        List of tuples where the first element is the label of the node and the second
+        one is the score obtained for the given algorithm.
+    """
+    metrics = algorithm(g)
+    metrics = {key: val for key, val in metrics.items()
+                if g.nodes[key]['n'] != 0
+                and key not in stop_uris}
+    best_qids = sorted(metrics, key=metrics.get, reverse=True)[:top_n]
+    return [(g.nodes[qid]['label'], metrics[qid]) for qid in best_qids]
 
 
 def get_largest_connected_subgraph(g):
-    """
-    """
     S = [g.subgraph(c).copy() for c in nxa.components.connected_components(g)]
     return max(S, key=len)
 
@@ -74,16 +101,32 @@ def _get_labels(entity_info, lang='en'):
 
 
 class WikidataGraphBuilder():
+    """ Build a Wikidata graph from a given set of seed concepts.
+
+    This class can be used to build a graph with Wikidata
+    
+    Parameters
+    ----------
+    max_hops: int (default=2)
+        Maximum depth of the graph with respect to the seed nodes used
+        to build it.
+
+    additional_props: list of str (default=None)
+        List of properties to be expanded for each node in the graph. They
+        will be added to the default list of properties of the graph builder.
+    """
+
     def __init__(self, max_hops=2, additional_props=None):
         self.max_hops = max_hops
         self.props_to_expand = WIKIDATA_PROPS_EXPAND
         if additional_props:
             self.props_to_expand += additional_props
     
-    def build_graph(self, topic):
+    def build_graph(self, terms):
+        """Build the graph for the given terms."""
         logger.info("Started building graph.")
         G = nx.Graph()
-        for term in topic:
+        for term in terms:
             logger.debug("Seed term: %s", term[0])
             term_uri = term[1]
             if term_uri is not None:

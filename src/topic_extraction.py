@@ -9,6 +9,19 @@ from .graph import get_centrality_algorithm_results, get_largest_connected_subgr
 
 
 class TopicLabeller(BaseEstimator, TransformerMixin):
+    """ 
+
+    Parameters
+    ----------
+    graph_builder : 
+        asd
+    r : callable
+        asd
+    num_labels_per_topic : int
+        asd
+    stop_uris : iterable of str
+    """
+
     def __init__(self, graph_builder,
                  r=nxa.centrality.information_centrality,
                  num_labels_per_topic=1,
@@ -24,9 +37,7 @@ class TopicLabeller(BaseEstimator, TransformerMixin):
     def transform(self, X, *args, **kwargs):
         pool = mp.Pool()
         results = pool.map(self.get_topic_labels, X)
-        #results = Parallel(n_jobs=20)(delayed(self.get_topic_labels)(linked_entities) for linked_entities in X)
         return results
-        #return [self.get_topic_labels(topic) for topic in tqdm(X)]
     
     def get_topic_labels(self, linked_entities):
         topic_neighbourhood = self.graph_builder.build_graph(linked_entities)
