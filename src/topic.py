@@ -1,5 +1,6 @@
 import multiprocessing.dummy as mp
 import networkx.algorithms as nxa
+import numpy as np
 
 from dataclasses import dataclass
 
@@ -67,15 +68,24 @@ class TopicCombiner(BaseEstimator, TransformerMixin):
     ----------
     """
 
-    def __init__(self):
-        pass
+    def __init__(self, max_num_topics=7, k=0.5, l=1.0):
+        self.k = k
+        self.l = l
     
     def fit(self, X, y=None):
         return self
     
     def transform(self, X, *args, **kwargs):
-        pass
-
+        res = []
+        for doc_topics in X:
+            topic_scores = [topic.score * self.l 
+                            if topic.type =='ner'
+                            else topic.score * self.k
+                            for topic in doc_topics]
+            best_topic_idx = np.argsort(topic_scores)[:max_num_topics]
+            res.append([(doc_topics[idx].label, topic_scores[idx])
+                        for idx in best_topics_idx])
+        return res
 
 
 class TopicLabeller(BaseEstimator, TransformerMixin):
