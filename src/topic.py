@@ -2,6 +2,7 @@ import multiprocessing.dummy as mp
 import networkx.algorithms as nxa
 import numpy as np
 
+from copy import deepcopy
 from dataclasses import dataclass
 
 from joblib import Parallel, delayed
@@ -56,9 +57,15 @@ class LabelledTopicModel(BaseEstimator, TransformerMixin):
         topic_distr = self.topic_model.transform(X)
         best_topics_idx = [np.argsort(text_topics)[::-1] 
                            for text_topics in topic_distr]
-        return [[(self.topics[topic_idx], topic_distr[text_idx][topic_idx]) 
-                 for topic_idx in text_topics[:self.num_topics_returned]]
-                 for text_idx, text_topics in enumerate(best_topics_idx)]
+        res = []
+        for text_idx, text_topics in enumerate(best_topics_idx):
+            text_res = []
+            for topic_idx in text_topics[:self.num_topics_returned]:
+                new_topic = deepcopy(self.topics[topic_idx])
+                new_topic.score = topic_distr[text_idx][topic_idx]
+                text_res.append(new_topic)
+            res.append(text_res)
+        return res
 
 
 class TopicCombiner(BaseEstimator, TransformerMixin):
@@ -79,7 +86,7 @@ class TopicCombiner(BaseEstimator, TransformerMixin):
         res = []
         for doc_topics in X:
             topic_scores = [topic.score * self.l 
-                            if topic.type =='ner'
+                            if topic.t_type =='ner'
                             else topic.score * self.k
                             for topic in doc_topics]
             best_topic_idx = np.argsort(topic_scores)[:max_num_topics]
