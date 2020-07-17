@@ -76,6 +76,7 @@ class TopicCombiner(BaseEstimator, TransformerMixin):
     """
 
     def __init__(self, max_num_topics=7, k=0.5, l=1.0):
+        self.max_num_topics = max_num_topics
         self.k = k
         self.l = l
     
@@ -89,7 +90,7 @@ class TopicCombiner(BaseEstimator, TransformerMixin):
                             if topic.t_type =='ner'
                             else topic.score * self.k
                             for topic in doc_topics]
-            best_topic_idx = np.argsort(topic_scores)[:max_num_topics]
+            best_topics_idx = np.argsort(topic_scores)[::-1][:self.max_num_topics]
             res.append([(doc_topics[idx].label, topic_scores[idx])
                         for idx in best_topics_idx])
         return res
