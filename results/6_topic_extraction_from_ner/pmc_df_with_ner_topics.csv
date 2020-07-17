@@ -1,130 +1,886 @@
 id,title,topics_from_ner
-3310815,Induced Release of a Plant-Defense Volatile ‘Deceptively’ Attracts Insect Vectors to Plants Infected with a Bacterial Pathogen,"[('chemistry', 0.19925816023738874), ('breastfeeding', 0.19548762736535663), ('pharmacology', 0.19438413663337675), ('sociology', 0.19120159453302962), ('chemical element', 0.18974286521616276), ('forestry science', 0.18926155580608794), ('chemical compound', 0.18862359550561797)]"
-3547067,Carbon and Nitrogen Isotopic Survey of Northern Peruvian Plants: Baselines for Paleodietary and Paleoecological Studies,"[('specialty', 0.20943683409436833), ('Area studies', 0.20500595947556616), ('statistics', 0.20178911863909665), ('regional studies', 0.20125786163522014), ('American studies', 0.20125786163522014), ('agriculture', 0.20093457943925233), ('forestry science', 0.20011634671320536)]"
-3668195,The effect of ‘Candidatus Liberibacter asiaticus’ infection on the proteomic profiles and nutritional status of pre-symptomatic and symptomatic grapefruit (Citrus paradisi) plants,"[('biological process', 0.1954924874791319), ('protein', 0.19445366987711724), ('process', 0.19374586366644606), ('science', 0.1924088070982583), ('biopolymer', 0.188749194068343), ('research', 0.18835451182242238), ('group', 0.18738998239718355)]"
-3672096,Emissions of CH4 and N2O under Different Tillage Systems from Double-Cropped Paddy Fields in Southern China,"[('Area studies', 0.18492481937121655), ('physics', 0.18427709671142245), ('regional studies', 0.1825014453651956), ('occurrence', 0.17760690172543137), ('physical property', 0.17462659044809145), ('pharmacology', 0.17404888807204558), ('research', 0.1739529757531227)]"
-3676804,"Physiological, Biochemical, and Molecular Mechanisms of Heat Stress Tolerance in Plants","[('biological process', 0.20107404729939068), ('chemistry', 0.19760479041916168), ('group', 0.19617128463476072), ('biopolymer', 0.19361575178997614), ('process', 0.1923913043478261), ('cell', 0.1902667839343301), ('chemical compound', 0.18919444174521427)]"
-3676838,Plant Defense against Insect Herbivores,"[('chemistry', 0.21390701468189233), ('specialty', 0.2069237597396193), ('science', 0.2057064418080204), ('chemical compound', 0.20482280581860782), ('chemical substance', 0.20376845376845376), ('interaction science', 0.2035312378734963), ('biological process', 0.20341283692069032)]"
-3818224,Enhanced Methanol Production in Plants Provides Broad Spectrum Insect Resistance,"[('biological process', 0.17912827781715096), ('process', 0.17449085260614428), ('interaction science', 0.17270242569183464), ('plant', 0.17229038854805726), ('control', 0.17115286947689182), ('social organism behavior', 0.17014473241332884), ('agriculture', 0.16824762855716424)]"
-3904951,Diversity and Spatial Structure of Belowground Plant–Fungal Symbiosis in a Mixed Subtropical Forest of Ectomycorrhizal and Arbuscular Mycorrhizal Plants,"[('statistics', 0.1855503475028285), ('biology', 0.18394488062810446), ('specialty', 0.1831233051523369), ('taxon', 0.1819046109966725), ('forestry science', 0.180389692017599), ('botany', 0.179375), ('pedology', 0.17915106117353308)]"
-3951315,Effects of Introduced and Indigenous Viruses on Native Plants: Exploring Their Disease Causing Potential at the Agro-Ecological Interface,"[('taxon', 0.18826781326781328), ('Area studies', 0.18598300970873785), ('regional studies', 0.18367041198501874), ('anthropology', 0.183067044945498), ('pharmacology', 0.18192610179551863), ('biology', 0.18173732582270977), ('botany', 0.18063945778694562)]"
-4067337,Effects of Winter Cover Crops Residue Returning on Soil Enzyme Activities and Soil Microbial Community in Double-Cropping Rice Fields,"[('agriculture', 0.21649484536082475), ('interaction science', 0.20812182741116753), ('agricultural science', 0.2045616535994298), ('gender studies', 0.20398009950248755), ('botany', 0.20121523720495443), ('education', 0.2000929584011155), ('physics', 0.1992594306873409)]"
-4112640,H2O2 mediates the crosstalk of brassinosteroid and abscisic acid in tomato responses to heat and oxidative stresses,"[('interaction science', 0.19107057129140662), ('chemistry', 0.19046099856436433), ('pharmacology', 0.18955389744403875), ('statistics', 0.18826868495742669), ('American studies', 0.18803149606299213), ('technology', 0.1864168618266979), ('communication studies', 0.18443002780352177)]"
+3310815,Induced Release of a Plant-Defense Volatile ‘Deceptively’ Attracts Insect Vectors to Plants Infected with a Bacterial Pathogen,"chemistry, 0.1991
+breastfeeding, 0.1953
+pharmacology, 0.1943
+sociology, 0.1919
+chemical element, 0.1893
+forestry science, 0.1891
+chemical compound, 0.1882"
+3547067,Carbon and Nitrogen Isotopic Survey of Northern Peruvian Plants: Baselines for Paleodietary and Paleoecological Studies,"specialty, 0.2095
+Area studies, 0.2050
+statistics, 0.2018
+regional studies, 0.2013
+American studies, 0.2012
+agriculture, 0.2009
+forestry science, 0.2001"
+3668195,The effect of ‘Candidatus Liberibacter asiaticus’ infection on the proteomic profiles and nutritional status of pre-symptomatic and symptomatic grapefruit (Citrus paradisi) plants,"biological process, 0.1955
+protein, 0.1943
+process, 0.1936
+science, 0.1925
+biopolymer, 0.1886
+research, 0.1884
+nutrition, 0.1874"
+3672096,Emissions of CH4 and N2O under Different Tillage Systems from Double-Cropped Paddy Fields in Southern China,"Area studies, 0.1849
+physics, 0.1842
+regional studies, 0.1826
+occurrence, 0.1776
+physical property, 0.1744
+pharmacology, 0.1742
+research, 0.1741"
+3676804,"Physiological, Biochemical, and Molecular Mechanisms of Heat Stress Tolerance in Plants","biological process, 0.2012
+chemistry, 0.1977
+group, 0.1963
+biopolymer, 0.1938
+process, 0.1925
+cell, 0.1903
+chemical compound, 0.1893"
+3676838,Plant Defense against Insect Herbivores,"chemistry, 0.2140
+specialty, 0.2071
+science, 0.2058
+chemical compound, 0.2049
+chemical substance, 0.2038
+interaction science, 0.2036
+biological process, 0.2032"
+3818224,Enhanced Methanol Production in Plants Provides Broad Spectrum Insect Resistance,"biological process, 0.1791
+process, 0.1745
+interaction science, 0.1727
+plant, 0.1723
+control, 0.1712
+social organism behavior, 0.1701
+agriculture, 0.1682"
+3904951,Diversity and Spatial Structure of Belowground Plant–Fungal Symbiosis in a Mixed Subtropical Forest of Ectomycorrhizal and Arbuscular Mycorrhizal Plants,"statistics, 0.1858
+biology, 0.1831
+taxon, 0.1816
+specialty, 0.1807
+forestry science, 0.1805
+pedology, 0.1796
+botany, 0.1794"
+3951315,Effects of Introduced and Indigenous Viruses on Native Plants: Exploring Their Disease Causing Potential at the Agro-Ecological Interface,"taxon, 0.1883
+Area studies, 0.1860
+regional studies, 0.1837
+anthropology, 0.1831
+pharmacology, 0.1820
+biology, 0.1818
+botany, 0.1807"
+4067337,Effects of Winter Cover Crops Residue Returning on Soil Enzyme Activities and Soil Microbial Community in Double-Cropping Rice Fields,"agriculture, 0.2157
+interaction science, 0.2077
+agricultural science, 0.2040
+gender studies, 0.2036
+botany, 0.2006
+education, 0.1995
+physics, 0.1984"
+4112640,H2O2 mediates the crosstalk of brassinosteroid and abscisic acid in tomato responses to heat and oxidative stresses,"interaction science, 0.1911
+chemistry, 0.1903
+pharmacology, 0.1892
+statistics, 0.1882
+American studies, 0.1877
+technology, 0.1862
+communication studies, 0.1843"
 4128675,"Involvement of Potato (Solanum tuberosum L.) MKK6 in Response to Potato virus Y
-","[('protein', 0.20830886670581328), ('chemical compound', 0.2055032585083273), ('biopolymer', 0.20405522001725626), ('taxon', 0.1985726280436608), ('cell biology', 0.19542762704861588), ('genetics', 0.19483729232459152), ('mathematics', 0.19473034170440512)]"
-4171492,"Multiple Different Defense Mechanisms Are Activated in the Young Transgenic Tobacco Plants Which Express the Full Length Genome of the Tobacco Mosaic Virus, and Are Resistant against this Virus","[('chemistry', 0.2103030303030303), ('biological process', 0.20781554124868992), ('protein', 0.20639405204460967), ('chemical compound', 0.20432798469012217), ('biopolymer', 0.20387779083431257), ('RNA', 0.20192027931335468), ('genome', 0.20098465102809152)]"
-4237146,Potato virus Y infection hinders potato defence response and renders plants more vulnerable to Colorado potato beetle attack,"[('interaction science', 0.2064969271290606), ('communication studies', 0.19983007646559048), ('biological process', 0.19711699631243715), ('information science', 0.19711699631243715), ('pharmacology', 0.1970509383378016), ('protein', 0.19502487562189055), ('botany', 0.1945409429280397)]"
-4378629,Antagonism between phytohormone signalling underlies the variation in disease susceptibility of tomato plants under elevated CO2,"[('interaction science', 0.20167346063076594), ('pharmacology', 0.20046918319471102), ('botany', 0.19538557472458948), ('communication studies', 0.19437551695616212), ('science', 0.1940945694817262), ('cell biology', 0.19309778142974526), ('pathology', 0.19274143940947303)]"
-4379157,Estimating Annual Soil Carbon Loss in Agricultural Peatland Soils Using a Nitrogen Budget Approach,"[('agriculture', 0.17183595472585625), ('soil science', 0.1627000695894224), ('pedology', 0.16227096057745696), ('cybernetics', 0.16202356202356202), ('systems engineering', 0.16202356202356202), ('physics', 0.16168741355463348), ('hydrogeology', 0.16159800940005528)]"
-4392563,Inhibition of Cholinesterases and Some Pro-Oxidant induced Oxidative Stress in Rats Brain by Two Tomato (Lycopersicon Esculentum) Varieties,"[('chemical compound', 0.2158406669754516), ('protein', 0.21366345712975698), ('chemical substance', 0.2123006833712984), ('biomedical measurand', 0.20822162645218945), ('drug class', 0.204655248133509), ('taxon', 0.19880546075085323), ('neuroscience', 0.1933609958506224)]"
-4397498,Plant defense phenotypes determine the consequences of volatile emission for individuals and neighbors,"[('concept', 0.19790633608815428), ('group', 0.19747113798790544), ('science', 0.1966064586754242), ('interaction science', 0.19579199825575058), ('entity', 0.1934510986643688), ('statistics', 0.19311827956989247), ('biology', 0.19274522429705945)]"
-4421779,Rice (Oryza sativa L) plantation affects the stability of biochar in paddy soil,"[('ecology', 0.16686251468860164), ('biology', 0.1637831603229527), ('pure mathematics', 0.16336861481822365), ('specialty', 0.16235993597072948), ('pharmacology', 0.16195255474452555), ('pedology', 0.1619156214367161), ('soil science', 0.16176805650489862)]"
-4427476,Root-Derived Short-Chain Suberin Diacids from Rice and Rape Seed in a Paddy Soil under Rice Cultivar Treatments,"[('agriculture', 0.19465711027854699), ('specialty', 0.19314692096331015), ('agricultural science', 0.18887308360992572), ('chemical element', 0.18818897637795276), ('chemical compound', 0.18668957975316358), ('chemical substance', 0.18478428946961498), ('business administration', 0.18427139552814187)]"
-4449599,Ethnobotanical study on medicinal plants used by Maonan people in China,"[('malnutrition', 0.19997959391898787), ('pathology', 0.196648941506973), ('citation analysis', 0.19276160503540518), ('technology', 0.19242096995876692), ('botany', 0.19155590304925724), ('medicine', 0.19058732010890703), ('software', 0.19036519036519037)]"
-4501783,Potato Annexin STANN1 Promotes Drought Tolerance and Mitigates Light Stress in Transgenic Solanum tuberosum L. Plants,"[('chemistry', 0.20602365114560237), ('chemical compound', 0.2048690858980248), ('protein', 0.20064783156379343), ('science', 0.19649308309102123), ('biological process', 0.1937109103544128), ('biopolymer', 0.19196005853490575), ('interaction science', 0.19174548581255374)]"
-4520592,Effects of Residue Management on Decomposition in Irrigated Rice Fields Are Not Related to Changes in the Decomposer Community,"[('agriculture', 0.18720217835262082), ('interaction science', 0.18669382213170402), ('pharmacology', 0.1851540144756775), ('activity', 0.18484288354898337), ('pedology', 0.18388498829822802), ('soil science', 0.1835781041388518), ('botany', 0.18214936247723132)]"
-4581289,"Route and Regulation of Zinc, Cadmium, and Iron Transport in Rice Plants (Oryza sativa L.) during Vegetative Growth and Grain Filling: Metal Transporters, Metal Speciation, Grain Cd Reduction and Zn and Fe Biofortification","[('taxon', 0.15267175572519084), ('class of chemical compounds with similar applications or functions', 0.1515527950310559), ('Wikidata metaclass', 0.1510648836057454), ('botany', 0.15037593984962405), ('organisms known by a particular common name', 0.1494548572828617), ('chemical element', 0.14929025942241803), ('simple substance', 0.14868982327848873)]"
-4598160,A Novel Route Controlling Begomovirus Resistance by the Messenger RNA Surveillance Factor Pelota,"[('group', 0.18053812909521819), ('taxon', 0.1792883843278416), ('biopolymer', 0.1730358097274185), ('regional studies', 0.1729202830818534), ('Area studies', 0.17209302325581396), ('protein', 0.17207015678979537), ('chemistry', 0.17200159383716296)]"
-4623198,Beyond conservation agriculture,"[('branch of science', 0.22295708406819517), ('science', 0.21456859971711456), ('geology', 0.21390298928369994), ('natural science', 0.21228659389868457), ('Earth sciences', 0.211340206185567), ('geophysics', 0.21028555586359857), ('management', 0.2084650267967569)]"
-4720047,"Anxiety and Depression Symptoms Among Farmers: The HUNT Study, Norway","[('branch of science', 0.2027876468980596), ('music', 0.19444444444444445), ('biology', 0.19192964304190377), ('agricultural science', 0.19084362139917696), ('science', 0.18856416772554002), ('medicine', 0.1882770870337478), ('', 0.18647901482784618)]"
-4824577,Tomato HsfA1a plays a critical role in plant drought tolerance by activating ATG genes and inducing autophagy,"[('biological process', 0.179037624776043), ('process', 0.1754012036108325), ('social organism behavior', 0.17252435565421137), ('interaction science', 0.17180400343853616), ('series', 0.16814903846153847), ('protein', 0.16453016582382687), ('science', 0.16424043202629726)]"
-4844397,"Sulfite Oxidase Activity Is Essential for Normal Sulfur, Nitrogen and Carbon Metabolism in Tomato Leaves","[('chemical compound', 0.22498394937173255), ('biological process', 0.22442817932296433), ('chemistry', 0.21773477720575182), ('protein', 0.2119955060063953), ('amino acid', 0.2103954026931984), ('chemical element', 0.20731913455037188), ('oxygen', 0.20719655376298673)]"
-4867051,Co-overexpressing a Plasma Membrane and a Vacuolar Membrane Sodium/Proton Antiporter Significantly Improves Salt Tolerance in Transgenic Arabidopsis Plants,"[('biological process', 0.1899494742591834), ('process', 0.17676960223662472), ('social organism behavior', 0.17554265522463403), ('chemical compound', 0.17396198099049526), ('water', 0.17333333333333334), ('DNA transport', 0.17249503968253968), ('water transport', 0.1717920217364456)]"
-4879578,Fungal endophytes of Catharanthus roseus enhance vindoline content by modulating structural and regulatory genes related to terpenoid indole alkaloid biosynthesis,"[('chemical compound', 0.1903199343724364), ('interaction science', 0.1819251127229955), ('chemical substance', 0.18065018493284019), ('water', 0.1803692905733722), ('biological process', 0.17883985353632684), ('process', 0.17639232085154913), ('communication studies', 0.17569102612646725)]"
-4898372,Multiwalled carbon nanotubes enter broccoli cells enhancing growth and water uptake of plants exposed to salinity,"[('chemical compound', 0.20057471264367815), ('protein', 0.1990305104077559), ('chemical substance', 0.19351261436096479), ('chemistry', 0.19231299077007852), ('biopolymer', 0.1916529379461834), ('biochemistry', 0.19139018371264052), ('cell type', 0.1898803046789989)]"
-4913302,A two-year field measurement of methane and nitrous oxide fluxes from rice paddies under contrasting climate conditions,"[('regional studies', 0.19276901987662784), ('Area studies', 0.19270298047276466), ('pharmacology', 0.18977732793522267), ('science', 0.18796992481203006), ('management', 0.18793852322084864), ('research', 0.18598115390973716), ('process', 0.1855517070757051)]"
-4932627,Optimizing rice plant photosynthate allocation reduces N2O emissions from paddy fields,"[('physics', 0.19170013386880858), ('agriculture', 0.1912904087630243), ('botany', 0.18387262455059064), ('statistics', 0.1827462991322103), ('chemical substance', 0.18149556400506972), ('technology', 0.18048903453491302), ('pedology', 0.1794036582310198)]"
-4981420,Virus Infection of Plants Alters Pollinator Preference: A Payback for Susceptible Hosts?,"[('taxon', 0.1947831978319783), ('process', 0.19441000788910176), ('botany', 0.1936026936026936), ('art', 0.19136898158420235), ('biological process', 0.18813392954520666), ('visual art', 0.1870729855764017), ('occupation', 0.18626498218334953)]"
-4998141,Estimation of phenotypic variability in symbiotic nitrogen fixation ability of common bean under drought stress using 15N natural abundance in grain,"[('botany', 0.18416606323919865), ('Latin American studies', 0.1836783822821377), ('agriculture', 0.1811490978157645), ('pedology', 0.1785630704423122), ('plant', 0.17621247113163974), ('soil science', 0.17479954180985108), ('chiropterology', 0.1743601462522852)]"
-5011652,Endophytic fungus Phomopsis liquidambari and different doses of N-fertilizer alter microbial community structure and function in rhizosphere of rice,"[('chemistry', 0.21556022041458936), ('biology', 0.2112368218050913), ('branch of science', 0.20994122156912853), ('chemical compound', 0.20552914686014512), ('natural science', 0.20540067508438556), ('life', 0.20445495271279243), ('engineering', 0.20334158415841583)]"
-5052518,Plant growth promoting rhizobacteria Dietzia natronolimnaea modulates the expression of stress responsive genes providing protection of wheat from salinity stress,"[('interaction science', 0.1768888888888889), ('software', 0.17476580796252927), ('science', 0.1733197851647554), ('soil science', 0.1732192078920644), ('botany', 0.16928966397277753), ('communication studies', 0.16885871871022487), ('chemical substance', 0.16809798676615514)]"
-5055509,Which factor contribute most to empower farmers through e-Agriculture in Bangladesh?,"[('interaction science', 0.20361060329067643), ('economics', 0.1981761565836299), ('music', 0.19642857142857142), ('branch of science', 0.1950952485220057), ('communication studies', 0.19173660426081343), ('geography', 0.191530524505589), ('education', 0.19054747647562018)]"
-5066492,"CaLecRK-S.5, a pepper L-type lectin receptor kinase gene, confers broad-spectrum resistance by activating priming","[('protein', 0.1962043378995434), ('interaction science', 0.19257703081232494), ('biological process', 0.1922539149888143), ('amino acid', 0.1916376306620209), ('cell biology', 0.19023242944106253), ('immunology', 0.18968133535660092), ('statistics', 0.18918547055586132)]"
-5095167,Temporal variability in trace metal solubility in a paddy soil not reflected in uptake by rice (Oryza sativa L.),"[('chemical substance', 0.18109391757315765), ('water', 0.17974452554744524), ('chemical compound', 0.1786577992744861), ('chemical element', 0.1750851725670271), ('taxon', 0.17474866942637493), ('base material', 0.17230320699708454), ('solvent', 0.17207744941039452)]"
-5125658,Salicylic Acid Is Involved in the Basal Resistance of Tomato Plants to Citrus Exocortis Viroid and Tomato Spotted Wilt Virus,"[('chemical compound', 0.22001243008079552), ('protein', 0.21470811220621683), ('medical specialty', 0.20863415352880507), ('chemical element', 0.20701754385964913), ('taxon', 0.2050390964378801), ('interaction science', 0.20444701126191164), ('biopolymer', 0.20438799076212472)]"
-5253511,Novel Approach to Classify Plants Based on Metabolite-Content Similarity,"[('branch of science', 0.23945094051855617), ('science', 0.22655122655122656), ('biology', 0.22595346605900696), ('specialty', 0.22546673049305888), ('statistics', 0.22364672364672364), ('mathematics', 0.2222222222222222), ('forestry science', 0.22076400281228029)]"
-5299730,"Variability among Cucurbitaceae species (melon, cucumber and watermelon) in a genomic region containing a cluster of NBS-LRR genes","[('taxon', 0.22926649465536306), ('genetics', 0.21940035273368608), ('biopolymer', 0.2190912293060937), ('genome', 0.21901408450704227), ('botany', 0.213013698630137), ('group', 0.20816599732262384), ('virus', 0.2070572569906791)]"
-5313494,From berries to blocks: carbon stock quantification of a California vineyard,"[('Area studies', 0.19513101653967663), ('American studies', 0.19206145966709348), ('regional studies', 0.19111758281761923), ('pedology', 0.1884760366182014), ('horticulture', 0.1883070301291248), ('forestry science', 0.1861372097145896), ('pomology', 0.1861372097145896)]"
-5324297,"Folk use of medicinal plants in Karst and Gorjanci, Slovenia","[('chemical substance', 0.21609638554216867), ('taxon', 0.21438133486326258), ('chemical compound', 0.20898583146905295), ('physics', 0.2084611808461181), ('medicine', 0.20730466944059178), ('regional studies', 0.20557491289198607), ('anatomical structure', 0.20480496939800857)]"
-5362684,Double overexpression of DREB and PIF transcription factors improves drought stress tolerance and cell elongation in transgenic plants,"[('biological process', 0.20024992189940644), ('chemical compound', 0.1881972988843218), ('gamma-aminobutyric acid reuptake', 0.18647272727272726), ('L-arginine transmembrane transport', 0.1855819339895773), ('process', 0.18451352907311455), ('synaptic transmission, GABAergic', 0.18385200057364118), ('glucose transmembrane transport', 0.18356242840778922)]"
-5373544,A systematic review of rodent pest research in Afro-Malagasy small-holder farming systems: Are we asking the right questions?,"[('science', 0.20858046658758403), ('ecology', 0.20593402303337888), ('management', 0.20585365853658535), ('statistics', 0.20541277258566978), ('mass media', 0.20473510576363282), ('agricultural science', 0.2038647342995169), ('African studies', 0.20323637064149488)]"
-5413563,Plant Growth under Natural Light Conditions Provides Highly Flexible Short-Term Acclimation Properties toward High Light Stress,"[('protein', 0.18884002199010444), ('specialty', 0.18615363771846632), ('mathematics', 0.18359166221272047), ('cell biology', 0.18208322289954942), ('American studies', 0.18141008714021653), ('mathematical analysis', 0.1806706114398422), ('botany', 0.1800314465408805)]"
-5441857,Acceleration of leaf senescence is slowed down in transgenic barley plants deficient in the DNA/RNA-binding protein WHIRLY1,"[('protein', 0.1858224363386098), ('interaction science', 0.18382352941176472), ('biological process', 0.18150040333422962), ('chemical compound', 0.1803125417390143), ('biopolymer', 0.17966462603140804), ('limnology', 0.17923526287838557), ('genetics', 0.1785478111360931)]"
-5447229,Endophytic Paecilomyces formosus LHL10 Augments Glycine max L. Adaptation to Ni-Contamination through Affecting Endogenous Phytohormones and Oxidative Stress,"[('chemistry', 0.20445317616240996), ('chemical compound', 0.2007200720072007), ('pharmacology', 0.19340849956634865), ('chemical substance', 0.1932169822997896), ('interaction science', 0.19097137264497185), ('chemical element', 0.18971803597472048), ('technology', 0.1860770056025748)]"
-5465592,Ethnobotanical survey of medicinal plants used as insects repellents in six malaria endemic localities of Cameroon,"[('software', 0.19423462309233852), ('agriculture', 0.1926016508712932), ('African studies', 0.1905337970663844), ('silviculture', 0.19018867924528302), ('science', 0.18636296405857122), ('forestry science', 0.1857859038631672), ('economic branch', 0.18521240629134206)]"
-5472609,"Chinese Milk Vetch Improves Plant Growth, Development and 15N Recovery in the Rice-Based Rotation System of South China","[('chemical substance', 0.17512150668286755), ('pharmacology', 0.17482941622441242), ('agriculture', 0.17453829851650016), ('chemical compound', 0.1717818831942789), ('drug', 0.17122067122067122), ('medication', 0.16943423952975753), ('process', 0.1652099154606677)]"
-5521873,Differences in gluten protein composition between old and modern durum wheat genotypes in relation to 20th century breeding in Italy,"[('interaction science', 0.18923799205489347), ('protein', 0.1891696750902527), ('biological process', 0.18651005516995905), ('breastfeeding', 0.18548672566371682), ('statistics', 0.18460454465386647), ('taxon', 0.18376293179028583), ('process', 0.1836663161584297)]"
-5559270,Lipid transfer from plants to arbuscular mycorrhiza fungi,"[('chemistry', 0.1974112666883751), ('chemical compound', 0.1961339372371401), ('chemical substance', 0.19114053755813037), ('specialty', 0.1909599181037877), ('protein', 0.18983873493032724), ('biological process', 0.18936436045603625), ('chemical element', 0.18575258521639218)]"
-5579920,Energy-Efficient Wireless Sensor Networks for Precision Agriculture: A Review,"[('area of mathematics', 0.21282429867116642), ('computer science', 0.21206389239176124), ('interaction science', 0.21040558857262018), ('software', 0.21023023231586624), ('management', 0.20924927416009956), ('science', 0.208298926507019), ('engineering', 0.20710180623973728)]"
+","protein, 0.2083
+chemical compound, 0.2055
+biopolymer, 0.2040
+taxon, 0.1985
+cell biology, 0.1952
+mathematics, 0.1946
+second-order metaclass, 0.1940"
+4171492,"Multiple Different Defense Mechanisms Are Activated in the Young Transgenic Tobacco Plants Which Express the Full Length Genome of the Tobacco Mosaic Virus, and Are Resistant against this Virus","chemistry, 0.2104
+biological process, 0.2079
+protein, 0.2064
+chemical compound, 0.2044
+biopolymer, 0.2039
+RNA, 0.2020
+genome, 0.2011"
+4237146,Potato virus Y infection hinders potato defence response and renders plants more vulnerable to Colorado potato beetle attack,"interaction science, 0.2065
+communication studies, 0.1998
+information science, 0.1971
+biological process, 0.1968
+pharmacology, 0.1968
+protein, 0.1951
+botany, 0.1948"
+4378629,Antagonism between phytohormone signalling underlies the variation in disease susceptibility of tomato plants under elevated CO2,"interaction science, 0.2007
+pharmacology, 0.1997
+botany, 0.1944
+communication studies, 0.1938
+branch of biology, 0.1928
+cell biology, 0.1927
+pathology, 0.1920"
+4379157,Estimating Annual Soil Carbon Loss in Agricultural Peatland Soils Using a Nitrogen Budget Approach,"agriculture, 0.1717
+soil science, 0.1626
+pedology, 0.1621
+cybernetics, 0.1620
+systems engineering, 0.1620
+physics, 0.1617
+hydrogeology, 0.1615"
+4392563,Inhibition of Cholinesterases and Some Pro-Oxidant induced Oxidative Stress in Rats Brain by Two Tomato (Lycopersicon Esculentum) Varieties,"chemical compound, 0.2159
+protein, 0.2139
+chemical substance, 0.2124
+biomedical measurand, 0.2083
+drug class, 0.2047
+taxon, 0.1989
+neuroscience, 0.1934"
+4397498,Plant defense phenotypes determine the consequences of volatile emission for individuals and neighbors,"concept, 0.1982
+group, 0.1975
+science, 0.1974
+interaction science, 0.1966
+statistics, 0.1937
+entity, 0.1936
+biology, 0.1921"
+4421779,Rice (Oryza sativa L) plantation affects the stability of biochar in paddy soil,"ecology, 0.1669
+biology, 0.1639
+pure mathematics, 0.1634
+specialty, 0.1625
+pharmacology, 0.1620
+pedology, 0.1620
+soil science, 0.1618"
+4427476,Root-Derived Short-Chain Suberin Diacids from Rice and Rape Seed in a Paddy Soil under Rice Cultivar Treatments,"agriculture, 0.1947
+specialty, 0.1932
+agricultural science, 0.1889
+chemical element, 0.1883
+chemical compound, 0.1868
+chemical substance, 0.1849
+business administration, 0.1843"
+4449599,Ethnobotanical study on medicinal plants used by Maonan people in China,"malnutrition, 0.1995
+pathology, 0.1975
+technology, 0.1929
+citation analysis, 0.1925
+medicine, 0.1923
+botany, 0.1915
+software, 0.1909"
+4501783,Potato Annexin STANN1 Promotes Drought Tolerance and Mitigates Light Stress in Transgenic Solanum tuberosum L. Plants,"chemistry, 0.2070
+chemical compound, 0.2053
+protein, 0.2010
+science, 0.1964
+biological process, 0.1937
+chemical element, 0.1926
+biopolymer, 0.1923"
+4520592,Effects of Residue Management on Decomposition in Irrigated Rice Fields Are Not Related to Changes in the Decomposer Community,"agriculture, 0.1872
+interaction science, 0.1867
+pharmacology, 0.1851
+activity, 0.1848
+pedology, 0.1839
+soil science, 0.1836
+botany, 0.1821"
+4581289,"Route and Regulation of Zinc, Cadmium, and Iron Transport in Rice Plants (Oryza sativa L.) during Vegetative Growth and Grain Filling: Metal Transporters, Metal Speciation, Grain Cd Reduction and Zn and Fe Biofortification","taxon, 0.1530
+class of chemical compounds with similar applications or functions, 0.1518
+Wikidata metaclass, 0.1513
+botany, 0.1506
+organisms known by a particular common name, 0.1496
+chemical element, 0.1496
+simple substance, 0.1490"
+4598160,A Novel Route Controlling Begomovirus Resistance by the Messenger RNA Surveillance Factor Pelota,"group, 0.1806
+taxon, 0.1793
+biopolymer, 0.1731
+regional studies, 0.1728
+protein, 0.1721
+Area studies, 0.1721
+chemistry, 0.1720"
+4623198,Beyond conservation agriculture,"branch of science, 0.2228
+science, 0.2146
+geology, 0.2139
+natural science, 0.2122
+Earth sciences, 0.2111
+geophysics, 0.2101
+management, 0.2083"
+4720047,"Anxiety and Depression Symptoms Among Farmers: The HUNT Study, Norway","branch of science, 0.2023
+music, 0.1941
+biology, 0.1918
+agricultural science, 0.1906
+science, 0.1883
+medicine, 0.1881
+, 0.1863"
+4824577,Tomato HsfA1a plays a critical role in plant drought tolerance by activating ATG genes and inducing autophagy,"biological process, 0.1794
+process, 0.1757
+social organism behavior, 0.1728
+interaction science, 0.1718
+series, 0.1684
+protein, 0.1651
+establishment of protein localization to spindle pole body, 0.1646"
+4844397,"Sulfite Oxidase Activity Is Essential for Normal Sulfur, Nitrogen and Carbon Metabolism in Tomato Leaves","chemical compound, 0.2248
+biological process, 0.2243
+chemistry, 0.2176
+protein, 0.2120
+amino acid, 0.2103
+chemical element, 0.2076
+oxygen, 0.2075"
+4867051,Co-overexpressing a Plasma Membrane and a Vacuolar Membrane Sodium/Proton Antiporter Significantly Improves Salt Tolerance in Transgenic Arabidopsis Plants,"biological process, 0.1898
+process, 0.1767
+social organism behavior, 0.1755
+chemical compound, 0.1740
+water, 0.1734
+DNA transport, 0.1724
+water transport, 0.1718"
+4879578,Fungal endophytes of Catharanthus roseus enhance vindoline content by modulating structural and regulatory genes related to terpenoid indole alkaloid biosynthesis,"chemical compound, 0.1903
+interaction science, 0.1819
+chemical substance, 0.1807
+water, 0.1804
+biological process, 0.1789
+process, 0.1764
+communication studies, 0.1757"
+4898372,Multiwalled carbon nanotubes enter broccoli cells enhancing growth and water uptake of plants exposed to salinity,"chemical compound, 0.2008
+protein, 0.1991
+chemical substance, 0.1940
+chemistry, 0.1928
+biopolymer, 0.1919
+biochemistry, 0.1917
+cell type, 0.1899"
+4913302,A two-year field measurement of methane and nitrous oxide fluxes from rice paddies under contrasting climate conditions,"regional studies, 0.1926
+Area studies, 0.1925
+pharmacology, 0.1898
+management, 0.1879
+science, 0.1879
+research, 0.1859
+process, 0.1856"
+4932627,Optimizing rice plant photosynthate allocation reduces N2O emissions from paddy fields,"physics, 0.1922
+agriculture, 0.1918
+statistics, 0.1862
+botany, 0.1844
+chemical substance, 0.1818
+technology, 0.1810
+pedology, 0.1808"
+4981420,Virus Infection of Plants Alters Pollinator Preference: A Payback for Susceptible Hosts?,"taxon, 0.1944
+process, 0.1938
+botany, 0.1933
+art, 0.1908
+biological process, 0.1879
+visual art, 0.1869
+occupation, 0.1858"
+4998141,Estimation of phenotypic variability in symbiotic nitrogen fixation ability of common bean under drought stress using 15N natural abundance in grain,"botany, 0.1842
+Latin American studies, 0.1836
+agriculture, 0.1812
+pedology, 0.1786
+plant, 0.1763
+soil science, 0.1748
+chiropterology, 0.1744"
+5011652,Endophytic fungus Phomopsis liquidambari and different doses of N-fertilizer alter microbial community structure and function in rhizosphere of rice,"chemistry, 0.2156
+biology, 0.2113
+branch of science, 0.2100
+chemical compound, 0.2056
+natural science, 0.2054
+life, 0.2045
+engineering, 0.2033"
+5052518,Plant growth promoting rhizobacteria Dietzia natronolimnaea modulates the expression of stress responsive genes providing protection of wheat from salinity stress,"interaction science, 0.1767
+software, 0.1747
+science, 0.1731
+soil science, 0.1730
+botany, 0.1691
+communication studies, 0.1687
+chemical substance, 0.1684"
+5055509,Which factor contribute most to empower farmers through e-Agriculture in Bangladesh?,"interaction science, 0.2046
+economics, 0.1994
+music, 0.1972
+branch of science, 0.1954
+communication studies, 0.1925
+geography, 0.1919
+education, 0.1912"
+5066492,"CaLecRK-S.5, a pepper L-type lectin receptor kinase gene, confers broad-spectrum resistance by activating priming","protein, 0.1964
+interaction science, 0.1926
+biological process, 0.1923
+amino acid, 0.1918
+cell biology, 0.1902
+immunology, 0.1897
+statistics, 0.1892"
+5095167,Temporal variability in trace metal solubility in a paddy soil not reflected in uptake by rice (Oryza sativa L.),"chemical substance, 0.1811
+water, 0.1807
+chemical compound, 0.1790
+taxon, 0.1773
+chemical element, 0.1750
+base material, 0.1723
+solvent, 0.1722"
+5125658,Salicylic Acid Is Involved in the Basal Resistance of Tomato Plants to Citrus Exocortis Viroid and Tomato Spotted Wilt Virus,"chemical compound, 0.2195
+protein, 0.2142
+medical specialty, 0.2085
+chemical element, 0.2066
+taxon, 0.2046
+interaction science, 0.2043
+biopolymer, 0.2040"
+5253511,Novel Approach to Classify Plants Based on Metabolite-Content Similarity,"branch of science, 0.2412
+science, 0.2284
+biology, 0.2262
+statistics, 0.2255
+mathematics, 0.2236
+forestry science, 0.2225
+social science, 0.2219"
+5299730,"Variability among Cucurbitaceae species (melon, cucumber and watermelon) in a genomic region containing a cluster of NBS-LRR genes","taxon, 0.2290
+biopolymer, 0.2189
+genome, 0.2149
+genetics, 0.2143
+botany, 0.2101
+group, 0.2082
+ribonucleoprotein, 0.2056"
+5313494,From berries to blocks: carbon stock quantification of a California vineyard,"Area studies, 0.1940
+American studies, 0.1901
+regional studies, 0.1901
+horticulture, 0.1872
+pedology, 0.1865
+forestry science, 0.1845
+pomology, 0.1845"
+5324297,"Folk use of medicinal plants in Karst and Gorjanci, Slovenia","chemical substance, 0.2154
+taxon, 0.2137
+chemical compound, 0.2084
+physics, 0.2081
+medicine, 0.2074
+regional studies, 0.2052
+anatomical structure, 0.2044"
+5362684,Double overexpression of DREB and PIF transcription factors improves drought stress tolerance and cell elongation in transgenic plants,"biological process, 0.2002
+chemical compound, 0.1883
+gamma-aminobutyric acid reuptake, 0.1865
+L-arginine transmembrane transport, 0.1856
+process, 0.1845
+synaptic transmission, GABAergic, 0.1838
+glucose transmembrane transport, 0.1835"
+5373544,A systematic review of rodent pest research in Afro-Malagasy small-holder farming systems: Are we asking the right questions?,"science, 0.2080
+management, 0.2058
+ecology, 0.2053
+statistics, 0.2051
+mass media, 0.2044
+agricultural science, 0.2035
+African studies, 0.2031"
+5413563,Plant Growth under Natural Light Conditions Provides Highly Flexible Short-Term Acclimation Properties toward High Light Stress,"protein, 0.1901
+specialty, 0.1866
+mathematics, 0.1834
+cell biology, 0.1821
+American studies, 0.1814
+botany, 0.1800
+mathematical analysis, 0.1800"
+5441857,Acceleration of leaf senescence is slowed down in transgenic barley plants deficient in the DNA/RNA-binding protein WHIRLY1,"protein, 0.1859
+interaction science, 0.1838
+biological process, 0.1816
+chemical compound, 0.1804
+biopolymer, 0.1797
+limnology, 0.1793
+genetics, 0.1785"
+5447229,Endophytic Paecilomyces formosus LHL10 Augments Glycine max L. Adaptation to Ni-Contamination through Affecting Endogenous Phytohormones and Oxidative Stress,"chemistry, 0.2047
+chemical compound, 0.2008
+chemical substance, 0.1934
+pharmacology, 0.1933
+interaction science, 0.1911
+chemical element, 0.1899
+technology, 0.1861"
+5465592,Ethnobotanical survey of medicinal plants used as insects repellents in six malaria endemic localities of Cameroon,"software, 0.1934
+agriculture, 0.1918
+African studies, 0.1899
+silviculture, 0.1894
+science, 0.1856
+forestry science, 0.1851
+product, 0.1841"
+5472609,"Chinese Milk Vetch Improves Plant Growth, Development and 15N Recovery in the Rice-Based Rotation System of South China","chemical substance, 0.1752
+pharmacology, 0.1748
+agriculture, 0.1745
+chemical compound, 0.1717
+drug, 0.1712
+medication, 0.1694
+process, 0.1653"
+5521873,Differences in gluten protein composition between old and modern durum wheat genotypes in relation to 20th century breeding in Italy,"interaction science, 0.1892
+protein, 0.1892
+biological process, 0.1865
+breastfeeding, 0.1855
+statistics, 0.1846
+taxon, 0.1838
+process, 0.1837"
+5559270,Lipid transfer from plants to arbuscular mycorrhiza fungi,"chemistry, 0.1974
+chemical compound, 0.1961
+chemical substance, 0.1911
+specialty, 0.1910
+protein, 0.1899
+biological process, 0.1893
+chemical element, 0.1858"
+5579920,Energy-Efficient Wireless Sensor Networks for Precision Agriculture: A Review,"area of mathematics, 0.2127
+computer science, 0.2119
+interaction science, 0.2103
+software, 0.2101
+management, 0.2092
+science, 0.2082
+engineering, 0.2070"
 5620588,"Differential Mechanisms of Photosynthetic Acclimation to Light and Low Temperature in Arabidopsis and the Extremophile Eutrema
-salsugineum","[('chemistry', 0.18457850579304835), ('group', 0.1789541639767592), ('interaction science', 0.17867732370761893), ('object', 0.1746031746031746), ('concept', 0.1741424802110818), ('statistics', 0.17412060301507537), ('edition philology', 0.1718110821866865)]"
-5633626,Within and beyond the stringent response-RSH and (p)ppGpp in plants,"[('protein', 0.20780672341157252), ('chemistry', 0.20393182585217684), ('science', 0.20285354595048258), ('biopolymer', 0.19986769205325394), ('biological process', 0.19806604933213146), ('interaction science', 0.19803359278984023), ('chemical compound', 0.19682410423452767)]"
-5637878,Evaluation of long-term conservation agriculture and crop intensification in rice-wheat rotation of Indo-Gangetic Plains of South Asia: Carbon dynamics and productivity,"[('philosophy', 0.19405594405594406), ('statistics', 0.19164966253335425), ('agriculture', 0.1912593984962406), ('property', 0.1905133406147605), ('logic', 0.19018691588785047), ('state', 0.18781725888324874), ('pedology', 0.18678292794860027)]"
-5669304,"Root growth in field-grown winter wheat: Some effects of soil conditions, season and genotype","[('mathematics', 0.18642961996411678), ('geography', 0.18636882439263003), ('pedology', 0.18218042715970673), ('geographic location', 0.18111234352717479), ('interaction science', 0.18102629078238835), ('statistics', 0.18088305111568287), ('property', 0.1803692599021619)]"
-5688476,A key enzyme of animal steroidogenesis can function in plants enhancing their immunity and accelerating the processes of growth and development,"[('chemistry', 0.2045287457726805), ('chemical compound', 0.2014774044032445), ('interaction science', 0.1960259301014656), ('biological process', 0.1932749756843129), ('botany', 0.1879983781592107), ('communication studies', 0.18668635082539256), ('media history', 0.18646112600536194)]"
-5738964,"Climate smart agriculture, farm household typologies and food security","[('agriculture', 0.21285361164515243), ('marketing', 0.21045485403937542), ('concept', 0.2062816076656907), ('economic branch', 0.20362585391487126), ('interaction science', 0.2033320215138397), ('economics', 0.20213875847678664), ('economic sector', 0.20108977685521537)]"
-5755014,"Exogenous short-term silicon application regulates macro-nutrients, endogenous phytohormones, and protein expression in Oryza sativa L.","[('protein', 0.21491504090623034), ('chemical compound', 0.21060746222633364), ('chemical substance', 0.20785149117468046), ('biological process', 0.20252038547071904), ('interaction science', 0.20100058858151854), ('biopolymer', 0.19895135450043694), ('ethanol', 0.1988644635318096)]"
-5758783,Yield and resource use efficiency of Plukenetia volubilis plants at two distinct growth stages as affected by irrigation and fertilization,"[('agriculture', 0.16497020854021846), ('interaction science', 0.1601976856316297), ('pharmacology', 0.15847841640829954), ('acoustics', 0.15651866682369567), ('pedology', 0.1547688366134855), ('soil science', 0.15469677569549528), ('American studies', 0.15455285498313756)]"
-5762720,Ultraviolet-B enhances the resistance of multiple plant species to lepidopteran insect herbivory through the jasmonic acid pathway,"[('taxon', 0.1920828905419766), ('group of living things', 0.1772927905836194), ('class', 0.17484885126964933), ('Hymenoptera', 0.17304930588798467), ('group', 0.17059933931099575), ('organism', 0.17019774011299435), ('group of humans', 0.16940018744142454)]"
-5763371,Susceptibility of Faba Bean (Vicia faba L.) to Heat Stress During Floral Development and Anthesis,"[('interaction science', 0.17885481449710486), ('information science', 0.1709016393442623), ('education', 0.16838279830405814), ('botany', 0.16767189384800965), ('pharmacology', 0.16663336663336664), ('science', 0.1642702383297223), ('action', 0.1622568093385214)]"
-5800158,"Arsenic Uptake, Toxicity, Detoxification, and Speciation in Plants: Physiological, Biochemical, and Molecular Aspects","[('biological process', 0.2011756448499737), ('chemistry', 0.19968649307672212), ('protein', 0.1993739674810886), ('chemical compound', 0.19437145036873782), ('biopolymer', 0.19244649601342845), ('chemical element', 0.19205963648546778), ('chemical substance', 0.19151424037417522)]"
-5853279,The role of Arabidopsis aldehyde dehydrogenase genes in response to high temperature and stress combinations,"[('biological process', 0.1786709112614405), ('materials science', 0.17810392701309005), ('mathematics', 0.17484423676012462), ('interaction science', 0.17448186528497409), ('process', 0.17315850366371), ('technology', 0.17231674555456059), ('chemical compound', 0.17203065134099618)]"
-5860692,Regulation of reactive oxygen and nitrogen species by salicylic acid in rice plants under salinity stress conditions,"[('biochemistry', 0.187671430633752), ('protein', 0.18296973961998592), ('process', 0.18268690275435637), ('biopolymer', 0.18153889121631056), ('pharmacology', 0.1801052923247437), ('chemistry', 0.18005540166204986), ('biological process', 0.17769272826681246)]"
-5882813,Endophytes of Withania somnifera modulate in planta content and the site of withanolide biosynthesis,"[('chemistry', 0.1904207308196244), ('interaction science', 0.18822852208950927), ('statistics', 0.18339876612450925), ('anthropology', 0.18311633767324653), ('chemical compound', 0.1829114809117606), ('taxon', 0.1827581388850077), ('communication studies', 0.18232506272651242)]"
-5908804,Gene refashioning through innovative shifting of reading frames in mosses,"[('specialty', 0.20590163934426228), ('protein', 0.20099215874539927), ('genetics', 0.1970505177282711), ('chemical substance', 0.19698870765370138), ('chemical compound', 0.19594383775351015), ('interaction science', 0.19579111457521434), ('edition philology', 0.19478908188585609)]"
-5935394,Diversification and intensification of agricultural adaptation from global to local scales,"[('regional studies', 0.20985481742190937), ('branch of science', 0.2087298982605842), ('science', 0.20750407830342577), ('Area studies', 0.20480893087161872), ('mathematics', 0.2020544318542836), ('concept', 0.19808970099667775), ('African studies', 0.1970667217517042)]"
-5995558,Socio-cultural contribution to medicinal plants assessment and sustainable development: case of antidiabetic and antihypertensive plants in Cameroon,"[('science', 0.17929015733626052), ('botany', 0.17619561308881698), ('', 0.17481270067784516), ('transport sciences', 0.17475035663338087), ('information science', 0.16844276383636989), ('research', 0.16838487972508592), ('medicine', 0.1674641148325359)]"
-6013986,Climate-smart agriculture for sustainable agricultural sectors: The case of Mooifontein,"[('agriculture', 0.20549828178694157), ('regional studies', 0.1994219653179191), ('Area studies', 0.199377639475439), ('science', 0.19915630550621669), ('Earth sciences', 0.19585152838427947), ('geographic region', 0.19449262792714658), ('agricultural science', 0.19407183037646042)]"
-6021986,A Mission Planning Approach for Precision Farming Systems Based on Multi-Objective Optimization,"[('concept', 0.22370714700755376), ('philosophy', 0.22145527753810756), ('area of mathematics', 0.22113727742676623), ('marketing', 0.22006287510717348), ('interaction science', 0.21776018099547512), ('mathematics', 0.2175755863238203), ('economics', 0.21481378155949227)]"
-6055696,Agricultural diversification as an important strategy for achieving food security in Africa,"[('biology', 0.2151477320016646), ('agricultural science', 0.20286443005689622), ('information science', 0.20155945419103313), ('statistics', 0.20144165205532827), ('meteorology', 0.20085470085470086), ('botany', 0.20073772083090663), ('food science', 0.2002323780015492)]"
-6066661,Ethnobotany of Anti-hypertensive Plants Used in Northern Pakistan,"[('branch of science', 0.18088737201365188), ('education', 0.17806324110671937), ('medicine', 0.1780280576961075), ('botany', 0.17649363369245838), ('anthropology', 0.17447714949651433), ('literary studies', 0.17178265014299332), ('taxon', 0.1696798493408663)]"
-6070203,Landscape heterogeneity rather than crop diversity mediates bird diversity in agricultural landscapes,"[('taxon', 0.20246734397677793), ('breastfeeding', 0.20236943907156674), ('science', 0.20139557266602504), ('specialty', 0.1984352773826458), ('software', 0.19759206798866855), ('mathematics', 0.19712670748940178), ('biology', 0.19657116016909348)]"
-6084956,"Overexpression of the rice gene OsSIZ1 in Arabidopsis improves drought-, heat-, and salt-tolerance simultaneously","[('chemical compound', 0.19301448217110867), ('biopolymer', 0.1892601431980907), ('chemical substance', 0.18829395702243856), ('interaction science', 0.18599741996012667), ('soil science', 0.18450442066077244), ('biological process', 0.18433286843328683), ('mathematical analysis', 0.18375622755184798)]"
-6166800,High nitrous oxide fluxes from rice indicate the need to manage water for both long- and short-term climate impacts,"[('science', 0.1889336368411837), ('management', 0.1824175824175824), ('interaction science', 0.18207897401282483), ('business administration', 0.17717569786535303), ('meteorology', 0.1766535690897184), ('agricultural science', 0.1753046303818034), ('work', 0.17487844408427877)]"
-6191707,Ancient plants with ancient fungi: liverworts associate with early-diverging arbuscular mycorrhizal fungi,"[('taxon', 0.21123899796885579), ('biology', 0.2014202711426727), ('group of living things', 0.1966593129530413), ('plant', 0.19294990723562153), ('organism', 0.19088406240440503), ('branch of science', 0.18772563176895307), ('Asian tiger mosquito', 0.1873873873873874)]"
-6198449,Exo-ethylene application mitigates waterlogging stress in soybean (Glycine max L.),"[('biological process', 0.19855915065722954), ('chemical compound', 0.1890265912645891), ('protein', 0.18891293891293892), ('social organism behavior', 0.18521575100212215), ('amino acid', 0.18333527832885985), ('process', 0.18128317562889454), ('water transport', 0.17993357003779636)]"
-6213855,Importance of Mineral Nutrition for Mitigating Aluminum Toxicity in Plants on Acidic Soils: Current Status and Opportunities,"[('chemistry', 0.21217846243278593), ('chemical compound', 0.20659402858355738), ('branch of science', 0.20416724933575725), ('chemical substance', 0.20005480953685942), ('science', 0.2), ('work', 0.198261814231396), ('product', 0.19391685482799842)]"
-6215673,"Ethnobotanical study of medicinal plants in Ganta Afeshum District, Eastern Zone of Tigray, Northern Ethiopia","[('ethnopharmacology', 0.19263785828604685), ('African studies', 0.19219044854115255), ('concept', 0.19160636758321273), ('information science', 0.1908606025659507), ('anthropology', 0.19020255710386438), ('statistics', 0.18963047837295904), ('biology', 0.18960332235428898)]"
+salsugineum","chemistry, 0.1856
+group, 0.1800
+interaction science, 0.1786
+object, 0.1756
+concept, 0.1741
+statistics, 0.1740
+edition philology, 0.1719"
+5633626,Within and beyond the stringent response-RSH and (p)ppGpp in plants,"protein, 0.2080
+chemistry, 0.2041
+science, 0.2030
+biopolymer, 0.2000
+biological process, 0.1982
+interaction science, 0.1981
+chemical compound, 0.1970"
+5637878,Evaluation of long-term conservation agriculture and crop intensification in rice-wheat rotation of Indo-Gangetic Plains of South Asia: Carbon dynamics and productivity,"philosophy, 0.1941
+statistics, 0.1917
+agriculture, 0.1913
+property, 0.1905
+logic, 0.1902
+state, 0.1878
+pedology, 0.1868"
+5669304,"Root growth in field-grown winter wheat: Some effects of soil conditions, season and genotype","mathematics, 0.1903
+geography, 0.1903
+interaction science, 0.1868
+pedology, 0.1862
+statistics, 0.1856
+soil science, 0.1839
+geographic location, 0.1823"
+5688476,A key enzyme of animal steroidogenesis can function in plants enhancing their immunity and accelerating the processes of growth and development,"chemistry, 0.2068
+chemical compound, 0.2031
+interaction science, 0.1984
+biological process, 0.1948
+botany, 0.1894
+communication studies, 0.1889
+media history, 0.1882"
+5738964,"Climate smart agriculture, farm household typologies and food security","agriculture, 0.2129
+marketing, 0.2103
+concept, 0.2076
+economic branch, 0.2039
+interaction science, 0.2032
+economics, 0.2020
+economic sector, 0.2008"
+5755014,"Exogenous short-term silicon application regulates macro-nutrients, endogenous phytohormones, and protein expression in Oryza sativa L.","protein, 0.2151
+chemical compound, 0.2107
+chemical substance, 0.2080
+biological process, 0.2028
+interaction science, 0.2010
+biopolymer, 0.1991
+ethanol, 0.1990"
+5758783,Yield and resource use efficiency of Plukenetia volubilis plants at two distinct growth stages as affected by irrigation and fertilization,"agriculture, 0.1648
+interaction science, 0.1600
+pharmacology, 0.1583
+acoustics, 0.1564
+pedology, 0.1547
+soil science, 0.1547
+American studies, 0.1543"
+5762720,Ultraviolet-B enhances the resistance of multiple plant species to lepidopteran insect herbivory through the jasmonic acid pathway,"taxon, 0.1922
+group of living things, 0.1774
+class, 0.1750
+Hymenoptera, 0.1730
+group, 0.1707
+organism, 0.1703
+group of humans, 0.1694"
+5763371,Susceptibility of Faba Bean (Vicia faba L.) to Heat Stress During Floral Development and Anthesis,"interaction science, 0.1807
+information science, 0.1725
+education, 0.1699
+botany, 0.1692
+pharmacology, 0.1681
+science, 0.1660
+action, 0.1643"
+5800158,"Arsenic Uptake, Toxicity, Detoxification, and Speciation in Plants: Physiological, Biochemical, and Molecular Aspects","biological process, 0.2015
+protein, 0.1999
+chemistry, 0.1992
+chemical compound, 0.1946
+biopolymer, 0.1928
+chemical element, 0.1922
+chemical substance, 0.1918"
+5853279,The role of Arabidopsis aldehyde dehydrogenase genes in response to high temperature and stress combinations,"biological process, 0.1788
+materials science, 0.1782
+mathematics, 0.1748
+interaction science, 0.1746
+process, 0.1732
+technology, 0.1724
+chemical compound, 0.1723"
+5860692,Regulation of reactive oxygen and nitrogen species by salicylic acid in rice plants under salinity stress conditions,"biochemistry, 0.1877
+protein, 0.1831
+process, 0.1827
+biopolymer, 0.1816
+chemistry, 0.1802
+pharmacology, 0.1800
+biological process, 0.1778"
+5882813,Endophytes of Withania somnifera modulate in planta content and the site of withanolide biosynthesis,"chemistry, 0.1905
+interaction science, 0.1881
+statistics, 0.1835
+chemical compound, 0.1830
+taxon, 0.1828
+anthropology, 0.1827
+communication studies, 0.1823"
+5908804,Gene refashioning through innovative shifting of reading frames in mosses,"protein, 0.2009
+specialty, 0.2001
+chemical substance, 0.1968
+chemical compound, 0.1958
+interaction science, 0.1956
+edition philology, 0.1941
+education, 0.1924"
+5935394,Diversification and intensification of agricultural adaptation from global to local scales,"regional studies, 0.2098
+branch of science, 0.2085
+science, 0.2073
+Area studies, 0.2047
+mathematics, 0.2018
+management, 0.1969
+African studies, 0.1969"
+5995558,Socio-cultural contribution to medicinal plants assessment and sustainable development: case of antidiabetic and antihypertensive plants in Cameroon,"science, 0.1794
+botany, 0.1763
+, 0.1750
+transport sciences, 0.1749
+information science, 0.1686
+research, 0.1686
+medicine, 0.1675"
+6013986,Climate-smart agriculture for sustainable agricultural sectors: The case of Mooifontein,"agriculture, 0.2055
+regional studies, 0.1994
+Area studies, 0.1994
+science, 0.1992
+Earth sciences, 0.1958
+geographic region, 0.1944
+agricultural science, 0.1941"
+6021986,A Mission Planning Approach for Precision Farming Systems Based on Multi-Objective Optimization,"concept, 0.2236
+philosophy, 0.2214
+area of mathematics, 0.2212
+marketing, 0.2201
+interaction science, 0.2178
+mathematics, 0.2177
+economics, 0.2148"
+6055696,Agricultural diversification as an important strategy for achieving food security in Africa,"biology, 0.2151
+agricultural science, 0.2028
+information science, 0.2016
+statistics, 0.2014
+food science, 0.2009
+meteorology, 0.2007
+botany, 0.2007"
+6066661,Ethnobotany of Anti-hypertensive Plants Used in Northern Pakistan,"branch of science, 0.1795
+medicine, 0.1768
+education, 0.1767
+botany, 0.1752
+anthropology, 0.1733
+literary studies, 0.1706
+taxon, 0.1690"
+6070203,Landscape heterogeneity rather than crop diversity mediates bird diversity in agricultural landscapes,"taxon, 0.2025
+breastfeeding, 0.2024
+science, 0.2014
+specialty, 0.1984
+software, 0.1976
+mathematics, 0.1971
+biology, 0.1966"
+6084956,"Overexpression of the rice gene OsSIZ1 in Arabidopsis improves drought-, heat-, and salt-tolerance simultaneously","chemical compound, 0.1931
+biopolymer, 0.1893
+chemical substance, 0.1884
+interaction science, 0.1859
+soil science, 0.1844
+biological process, 0.1843
+mathematical analysis, 0.1837"
+6166800,High nitrous oxide fluxes from rice indicate the need to manage water for both long- and short-term climate impacts,"science, 0.1889
+management, 0.1823
+interaction science, 0.1820
+business administration, 0.1770
+meteorology, 0.1765
+agricultural science, 0.1752
+work, 0.1747"
+6191707,Ancient plants with ancient fungi: liverworts associate with early-diverging arbuscular mycorrhizal fungi,"taxon, 0.2086
+biology, 0.2008
+group of living things, 0.1923
+plant, 0.1916
+organism, 0.1884
+branch of science, 0.1878
+Asian tiger mosquito, 0.1855"
+6198449,Exo-ethylene application mitigates waterlogging stress in soybean (Glycine max L.),"biological process, 0.1987
+chemical compound, 0.1891
+protein, 0.1891
+social organism behavior, 0.1853
+amino acid, 0.1834
+process, 0.1813
+water transport, 0.1800"
+6213855,Importance of Mineral Nutrition for Mitigating Aluminum Toxicity in Plants on Acidic Soils: Current Status and Opportunities,"chemistry, 0.2117
+chemical compound, 0.2062
+branch of science, 0.2038
+science, 0.1998
+chemical substance, 0.1996
+work, 0.1980
+biological process, 0.1937"
+6215673,"Ethnobotanical study of medicinal plants in Ganta Afeshum District, Eastern Zone of Tigray, Northern Ethiopia","ethnopharmacology, 0.1922
+African studies, 0.1918
+concept, 0.1912
+information science, 0.1905
+anthropology, 0.1898
+library science, 0.1893
+statistics, 0.1893"
 6232530,"The Beneficial Endophytic Fungus Fusarium
-solani Strain K Alters Tomato Responses Against Spider Mites to the Benefit of the Plant","[('interaction science', 0.19027683997299122), ('specialty', 0.1854435377730982), ('taxon', 0.18408675202508493), ('pharmacology', 0.18274967574578468), ('chemical compound', 0.18253659800492292), ('communication studies', 0.18237121408231943), ('botany', 0.18105885376509895)]"
-6242374,Farm-level and community aggregate economic impacts of adopting climate smart agricultural practices in three mega environments,"[('branch of science', 0.2010172234423766), ('science', 0.19970142397795132), ('automation', 0.1977484648624062), ('engineering', 0.19665271966527198), ('medicine', 0.19656380694020573), ('mathematics', 0.19645277903298689), ('pedology', 0.19583333333333333)]"
-6262949,"Indigenous knowledge of dye-yielding plants among Bai communities in Dali, Northwest Yunnan, China","[('chemical substance', 0.1925272444213804), ('group of humans', 0.1810639336261591), ('taxon', 0.18044747081712062), ('human', 0.17931367810536492), ('base material', 0.1789676796912687), ('chemical compound', 0.17802303262955854), ('colourant', 0.17746950490313324)]"
-6277847,Modification of Barley Plant Productivity Through Regulation of Cytokinin Content by Reverse-Genetics Approaches,"[('interaction science', 0.190294315884071), ('protein', 0.1871616395978345), ('biopolymer', 0.18658442559753277), ('mathematics', 0.1865022569635583), ('genetics', 0.186481726111845), ('specialty', 0.18635863586358636), ('American studies', 0.18479328024435476)]"
-6322579,Airborne signals synchronize the defenses of neighboring plants in response to touch,"[('chemistry', 0.23663101604278075), ('branch of science', 0.23076923076923078), ('organic chemistry', 0.22174893510398397), ('chemical compound', 0.2213053263315829), ('interaction science', 0.2177121771217712), ('engineering', 0.21723122238586157), ('biochemistry', 0.2164343360234776)]"
-6326430,"Modeling effects of crop production, energy development and conservation-grassland loss on avian habitat","[('American studies', 0.16610101816729886), ('Area studies', 0.16462208151958843), ('geographic region', 0.16281800391389434), ('statistics', 0.16246826791642258), ('regional studies', 0.15966225292650163), ('property', 0.15926493108728942), ('United States of America', 0.15896064195643866)]"
-6337918,Tolerance of Transplastomic Tobacco Plants Overexpressing a Theta Class Glutathione Transferase to Abiotic and Oxidative Stresses,"[('chemical compound', 0.2167352537722908), ('protein', 0.20727489564698867), ('glycine', 0.2045909358446145), ('L-Alanine', 0.20317979892447977), ('biological process', 0.20214003256571295), ('amino acid', 0.2006696686294885), ('medication', 0.19506172839506172)]"
-6358044,"Impact of conservation tillage in rice–based cropping systems on soil aggregation, carbon pools and nutrients","[('chemistry', 0.2017005196032121), ('branch of science', 0.19719827586206898), ('chemical substance', 0.19199640287769784), ('chemical element', 0.18681639200816683), ('engineering', 0.18487516236109106), ('classification system', 0.18313080771979987), ('library science', 0.18289548829240435)]"
-6366173,Variation in defence strategies in the metal hyperaccumulator plant Noccaea caerulescens is indicative of synergies and trade-offs between forms of defence,"[('taxon', 0.16800152555301295), ('pharmacology', 0.16532182398198536), ('botany', 0.1650121745645252), ('biological process', 0.16085448238086544), ('drug', 0.15670579864816792), ('carbon', 0.15628880610253681), ('organism', 0.15617798262719376)]"
-6376693,Co-expression of SpSOS1 and SpAHA1 in transgenic Arabidopsis plants improves salinity tolerance,"[('cell', 0.18592964824120603), ('cytology', 0.176874813265611), ('cellular component', 0.17556346381969157), ('statistics', 0.16999282124910264), ('soil science', 0.16943331425300515), ('biological process', 0.1689015691868759), ('biological component', 0.16844501351543606)]"
-6390929,Enhancing agroecosystem productivity with woody perennials in semi-arid West Africa. A meta-analysis,"[('regional studies', 0.21437480511381354), ('Area studies', 0.21192971639950678), ('agricultural science', 0.2033121395830253), ('software', 0.2033121395830253), ('specialty', 0.20316193853427897), ('management', 0.2030119592499631), ('construction', 0.2014947245017585)]"
-6390932,Grain legume yields are as stable as other spring crops in long-term experiments across northern Europe,"[('European studies', 0.18968108198363667), ('science', 0.18917568692756037), ('education', 0.18854771784232366), ('protein', 0.1868421052631579), ('taxon', 0.18613796493527773), ('soil science', 0.18489583333333334), ('pedology', 0.18296021903688195)]"
-6394436,Characterizing diversity of food systems in view of sustainability transitions. A review,"[('interaction science', 0.2214406669271851), ('science', 0.21573604060913706), ('economics', 0.21494499936780884), ('software', 0.21263289555972484), ('regional studies', 0.211864406779661), ('library science', 0.21013597033374537), ('specialty', 0.21003212255992093)]"
-6399567,Black Rice (Oryza sativa L.) Fermented with Lactobacillus casei Attenuates Osteoclastogenesis and Ovariectomy-Induced Osteoporosis,"[('cell type', 0.1751482213438735), ('cell', 0.17322257512826778), ('chemical substance', 0.17212915756251518), ('protein', 0.16980002394922764), ('anatomical structure', 0.16905102527420124), ('chemical compound', 0.16761229314420803), ('tissue', 0.16703969843326658)]"
-6404675,"Trade-offs and synergies between yield, labor, profit, and risk in Malawian maize-based cropping systems","[('soil science', 0.18476967533571306), ('pedology', 0.18256634195498825), ('archaeology', 0.18053479488457067), ('systems engineering', 0.18014584023864766), ('cybernetics', 0.1796397289704181), ('occupation', 0.17907742998352555), ('social science', 0.17810912665902015)]"
-6412671,The Ameliorative Effect of Silicon on Maize Plants Grown in Mg-Deficient Conditions,"[('chemistry', 0.2096952296819788), ('chemical compound', 0.20193534666099533), ('biological process', 0.1989940270355234), ('chemical substance', 0.19425122749590834), ('water', 0.19253776741356585), ('chemical element', 0.19195390680278984), ('process', 0.18965345051433136)]"
-6417397,Towards resilience through systems-based plant breeding. A review,"[('science', 0.2221813725490196), ('philosophy', 0.21775162142685564), ('agriculture', 0.21668459423927333), ('ecology', 0.21645176695319962), ('concept', 0.21501423149905124), ('interaction science', 0.21417601890135854), ('social science', 0.2133694245027657)]"
-6417402,Food systems for sustainable development: proposals for a profound four-part transformation,"[('social science', 0.21825121443442055), ('science', 0.217797783933518), ('interaction science', 0.21723363840442064), ('sociology', 0.21275156434973785), ('agriculture', 0.21174886382763844), ('specialty', 0.20994659546061414), ('agricultural science', 0.2093526377101015)]"
-6449481,Unmanned Aerial Vehicle-Based Phenotyping Using Morphometric and Spectral Analysis Can Quantify Responses of Wild Tomato Plants to Salinity Stress,"[('science', 0.21073105298457412), ('automation', 0.2060868424504788), ('statistics', 0.20339202485758676), ('mathematics', 0.20312904059994827), ('interaction science', 0.19944141170496382), ('botany', 0.19903712150006334), ('information science', 0.19870984062737163)]"
-6471123,"The Campus as a Smart City: University of Málaga Environmental, Learning, and Research Approaches","[('branch of science', 0.21989779623123604), ('education', 0.21860612795681855), ('social science', 0.21808679125752298), ('interaction science', 0.21695289112966756), ('science', 0.21552668649240883), ('software', 0.2144859813084112), ('business administration', 0.2142190416925949)]"
-6471620,Plant Serine Protease Inhibitors: Biotechnology Application in Agriculture and Molecular Farming,"[('biological process', 0.1940567312021612), ('taxon', 0.19370786516853933), ('group of living things', 0.18763604701784936), ('process', 0.1850314825414997), ('social organism behavior', 0.18376918703808984), ('organism', 0.18293718166383702), ('establishment of protein localization to spindle pole body', 0.1819845179451091)]"
-6473438,Role of Silicon in Mitigation of Heavy Metal Stresses in Crop Plants,"[('botany', 0.1992405628769265), ('software', 0.1935763888888889), ('biochemistry', 0.19299004759844224), ('taxon', 0.1919104991394148), ('economic branch', 0.18934408830396943), ('medicine', 0.18614357262103506), ('product', 0.18335046248715314)]"
-6514985,State-of-the-Art Internet of Things in Protected Agriculture,"[('science', 0.2273752466873414), ('interaction science', 0.22396556512079976), ('sociology', 0.22232942798070296), ('social science', 0.2215355033649224), ('software', 0.22068682446299084), ('biology', 0.22002455326694859), ('computer science', 0.21894936880684132)]"
-6524069,Explorative Frequency Analysis of Leaf Temperature Behavior of Maize (Zea mays subsp. mays) at Water Deficit,"[('mathematics', 0.19949452401010953), ('mathematical analysis', 0.19839142091152814), ('automation', 0.19743204935801234), ('logic', 0.19321148825065274), ('art', 0.1921765947086512), ('pure mathematics', 0.19078311311633903), ('technology', 0.19056816352808628)]"
-6524378,"Glucosinolate Distribution in the Aerial Parts of sel1-10, a Disruption Mutant of the Sulfate Transporter SULTR1;2, in Mature Arabidopsis thaliana Plants","[('chemical compound', 0.2436108821104699), ('conditionally essential amino acids', 0.21405287939152481), ('glutathione transmembrane transporter activity', 0.20920353982300885), ('ATPase-coupled cysteine transmembrane transporter activity', 0.20809859154929577), ('protein', 0.2053509381514941), ('DL-cysteine', 0.20520833333333333), ('sulfur', 0.20506592643997223)]"
-6529577,Salmonella Establishment in Agricultural Soil and Colonization of Crop Plants Depend on Soil Type and Plant Species,"[('interaction science', 0.1935570110947734), ('communication studies', 0.18635778635778635), ('cell biology', 0.18370971834559757), ('media history', 0.182874463248295), ('mathematics', 0.18204676892129745), ('botany', 0.18193240356828747), ('software', 0.1814308983836612)]"
-6538708,Ethnomedicinal Investigation of Medicinal Plants of Chakrata Region (Uttarakhand) Used in the Traditional Medicine for Diabetes by Jaunsari Tribe,"[('chemical compound', 0.21638167616635), ('taxon', 0.19966884192071685), ('drug class', 0.19412878787878787), ('protein', 0.19337798320913122), ('oxygen', 0.19140989729225025), ('water', 0.1908752327746741), ('polysaccharides', 0.19052044609665428)]"
-6539879,Nitrate Reductase-Mediated Nitric Oxide Regulates the Leaf Shape in Arabidopsis by Mediating the Homeostasis of Reactive Oxygen Species,"[('chemistry', 0.19557661927330175), ('group', 0.19152227722772278), ('chemical compound', 0.1808355243938066), ('science', 0.17466139954853274), ('cell biology', 0.17382757652344846), ('object', 0.17368125701459033), ('engineering', 0.17314685314685316)]"
-6539957,Modified Rice Straw Enhanced Cadmium (II) Immobilization in Soil and Promoted the Degradation of Phenanthrene in Co-Contaminated Soil,"[('chemistry', 0.22458584337349397), ('branch of science', 0.22182967645965043), ('materials science', 0.21036854170340327), ('engineering', 0.2075143503217951), ('chemical compound', 0.20661586421891237), ('inorganic chemistry', 0.20632998962296784), ('chemical substance', 0.2061161022805805)]"
-6560427,Understanding the Properties of Starch in Potatoes (Solanum tuberosum var. Agria) after Being Treated with Pulsed Electric Field Processing,"[('chemical compound', 0.18395945140131187), ('chemical substance', 0.18144390530804294), ('materials science', 0.17881466454137082), ('process', 0.177758571016998), ('pharmacology', 0.1776306319274507), ('protein', 0.17623536132533563), ('interruption science', 0.17407250670052193)]"
-6570029,The economic value of mussel farming for uncertain nutrient removal in the Baltic Sea,"[('concept', 0.1809615077463664), ('abstract object', 0.16750443524541692), ('project', 0.16632413388138578), ('statistics', 0.16513627751056698), ('philosophical concept', 0.16394154246852843), ('mathematical concept', 0.16391782407407407), ('Russian studies', 0.16358648570603523)]"
-6571617,"DRB1, DRB2 and DRB4 Are Required for Appropriate Regulation of the microRNA399/PHOSPHATE2 Expression Module in Arabidopsis thaliana","[('specialty', 0.19891182589214274), ('process', 0.19470551378446116), ('economic branch', 0.193282537707977), ('biological process', 0.19247445029420873), ('intentional human action', 0.19202842576857718), ('classification system', 0.19190983480006177), ('psychology', 0.19070266953053083)]"
-6587683,"Effects of Winter Cover Crops on Rice Pests, Natural Enemies, and Grain Yield in a Rice Rotation System","[('agriculture', 0.19742489270386265), ('pharmacology', 0.19342072718278505), ('botany', 0.19119804400977994), ('biology', 0.19012885971310478), ('silviculture', 0.18971373119844737), ('pedology', 0.1879355924056717), ('business administration', 0.18672397325692455)]"
-6630288,"Waterlogging Causes Early Modification in the Physiological Performance, Carotenoids, Chlorophylls, Proline, and Soluble Sugars of Cucumber Plants","[('biological process', 0.1905708092485549), ('process', 0.18940754039497307), ('chemical compound', 0.18521769662921347), ('carbon', 0.18252595155709342), (""sucrose catabolic process via 3'-ketosucrose"", 0.1811780868967886), ('glucose metabolic process', 0.17969681485266564), ('glucose transmembrane transport', 0.17948281728479074)]"
-6630593,Role of Silicon in Mediating Salt Tolerance in Plants: A Review,"[('chemistry', 0.21488716739642977), ('chemical compound', 0.2109090909090909), ('chemical substance', 0.20770482908301682), ('biological process', 0.20687418936446172), ('protein', 0.20503481521156935), ('water', 0.19898118307516374), ('chemical element', 0.1984447900466563)]"
-6630798,Responses of Tomato Plants under Saline Stress to Foliar Application of Copper Nanoparticles,"[('base material', 0.19355443132846167), ('materials science', 0.1909779996302459), ('medication', 0.18853805438948712), ('food ingredient', 0.18656312082355067), ('chemical compound', 0.18629395852119027), ('process', 0.18489350277429747), ('chemical element', 0.18456315883509022)]"
-6681330,Expression of miR159 Is Altered in Tomato Plants Undergoing Drought Stress,"[('biological process', 0.21476084890719038), ('RNA', 0.21233949264015034), ('social organism behavior', 0.20232766338406447), ('RNA transport', 0.20184578743673712), ('RNA metabolic process', 0.19994102034797995), ('RNA catabolic process', 0.19970544918998528), ('RNA biosynthetic process', 0.19970544918998528)]"
-6681344,"The NAC Protein from Tamarix hispida, ThNAC7, Confers Salt and Osmotic Stress Tolerance by Increasing Reactive Oxygen Species Scavenging Capability","[('cell', 0.18293972506168488), ('chemical compound', 0.180773249738767), ('biological process', 0.1784118253695428), ('molecular function', 0.17795302588719356), ('cell type', 0.17474747474747473), ('mixture', 0.17416107382550336), ('botany', 0.17352056168505517)]"
-6681968,"Isolation, cloning and expression of CCA1 gene in transgenic progeny plants of Japonica rice exhibiting altered morphological traits","[('construction', 0.1861037485800833), ('chemical compound', 0.18430674041436204), ('interaction science', 0.18171734910805065), ('protein', 0.18128169663439372), ('biological process', 0.18108133001750024), ('process', 0.18096465390279823), ('genome', 0.17949420250159773)]"
-6724085,Phytolith Formation in Plants: From Soil to Cell,"[('branch of science', 0.22060513213328226), ('chemistry', 0.21818181818181817), ('science', 0.2141462961241751), ('specialty', 0.21380846325167038), ('biology', 0.21164798824177844), ('biochemistry', 0.2098360655737705), ('software', 0.20966420966420968)]"
-6730492,Responses to Hydric Stress in the Seed-Borne Necrotrophic Fungus Alternaria brassicicola,"[('chemical compound', 0.2220387948823772), ('chemistry', 0.21632488942501005), ('biological process', 0.20847326272281064), ('biopolymer', 0.20495238095238094), ('amino acid', 0.20456273764258556), ('taxon', 0.19815837937384898), ('pharmacology', 0.19772142594634326)]"
-6736833,Soil temperature and hydric potential influences the monthly variations of soil Tuber aestivum DNA in a highly productive orchard,"[('statistics', 0.19688249400479615), ('specialty', 0.19101907864122847), ('botany', 0.19075278810408922), ('forestry science', 0.1902665121668598), ('taxon', 0.1901783646050498), ('phylogenetics', 0.18791485465781643), ('process', 0.18735737106344136)]"
+solani Strain K Alters Tomato Responses Against Spider Mites to the Benefit of the Plant","interaction science, 0.1902
+specialty, 0.1854
+taxon, 0.1841
+pharmacology, 0.1825
+chemical compound, 0.1824
+communication studies, 0.1823
+botany, 0.1812"
+6242374,Farm-level and community aggregate economic impacts of adopting climate smart agricultural practices in three mega environments,"branch of science, 0.2014
+science, 0.1998
+automation, 0.1987
+medicine, 0.1974
+engineering, 0.1973
+mathematics, 0.1971
+pedology, 0.1965"
+6262949,"Indigenous knowledge of dye-yielding plants among Bai communities in Dali, Northwest Yunnan, China","chemical substance, 0.1928
+group of humans, 0.1812
+taxon, 0.1806
+human, 0.1794
+base material, 0.1793
+chemical compound, 0.1783
+colourant, 0.1777"
+6277847,Modification of Barley Plant Productivity Through Regulation of Cytokinin Content by Reverse-Genetics Approaches,"interaction science, 0.1903
+protein, 0.1872
+mathematics, 0.1867
+biopolymer, 0.1866
+genetics, 0.1865
+specialty, 0.1864
+American studies, 0.1848"
+6322579,Airborne signals synchronize the defenses of neighboring plants in response to touch,"chemistry, 0.2365
+branch of science, 0.2306
+organic chemistry, 0.2217
+chemical compound, 0.2213
+interaction science, 0.2176
+engineering, 0.2171
+biochemistry, 0.2164"
+6326430,"Modeling effects of crop production, energy development and conservation-grassland loss on avian habitat","American studies, 0.1660
+Area studies, 0.1646
+geographic region, 0.1628
+statistics, 0.1624
+regional studies, 0.1596
+property, 0.1593
+United States of America, 0.1588"
+6337918,Tolerance of Transplastomic Tobacco Plants Overexpressing a Theta Class Glutathione Transferase to Abiotic and Oxidative Stresses,"chemical compound, 0.2168
+protein, 0.2073
+glycine, 0.2047
+L-Alanine, 0.2032
+biological process, 0.2022
+amino acid, 0.2007
+medication, 0.1951"
+6358044,"Impact of conservation tillage in rice–based cropping systems on soil aggregation, carbon pools and nutrients","chemistry, 0.2015
+branch of science, 0.1971
+chemical substance, 0.1918
+chemical element, 0.1866
+engineering, 0.1847
+classification system, 0.1831
+library science, 0.1828"
+6366173,Variation in defence strategies in the metal hyperaccumulator plant Noccaea caerulescens is indicative of synergies and trade-offs between forms of defence,"taxon, 0.1676
+pharmacology, 0.1650
+botany, 0.1648
+biological process, 0.1606
+drug, 0.1564
+organism, 0.1559
+carbon, 0.1559"
+6376693,Co-expression of SpSOS1 and SpAHA1 in transgenic Arabidopsis plants improves salinity tolerance,"cell, 0.1861
+cytology, 0.1770
+cellular component, 0.1757
+statistics, 0.1699
+soil science, 0.1694
+biological process, 0.1689
+biological component, 0.1686"
+6390929,Enhancing agroecosystem productivity with woody perennials in semi-arid West Africa. A meta-analysis,"regional studies, 0.2144
+Area studies, 0.2118
+agricultural science, 0.2034
+software, 0.2033
+specialty, 0.2032
+management, 0.2030
+construction, 0.2015"
+6390932,Grain legume yields are as stable as other spring crops in long-term experiments across northern Europe,"European studies, 0.1911
+science, 0.1905
+education, 0.1888
+protein, 0.1887
+taxon, 0.1880
+soil science, 0.1861
+pedology, 0.1841"
+6394436,Characterizing diversity of food systems in view of sustainability transitions. A review,"interaction science, 0.2222
+science, 0.2159
+economics, 0.2149
+software, 0.2130
+regional studies, 0.2119
+library science, 0.2101
+specialty, 0.2100"
+6399567,Black Rice (Oryza sativa L.) Fermented with Lactobacillus casei Attenuates Osteoclastogenesis and Ovariectomy-Induced Osteoporosis,"cell, 0.1733
+cell type, 0.1724
+chemical substance, 0.1723
+protein, 0.1702
+anatomical structure, 0.1692
+chemical compound, 0.1678
+tissue, 0.1672"
+6404675,"Trade-offs and synergies between yield, labor, profit, and risk in Malawian maize-based cropping systems","soil science, 0.1843
+pedology, 0.1821
+archaeology, 0.1798
+systems engineering, 0.1796
+cybernetics, 0.1791
+occupation, 0.1786
+social science, 0.1774"
+6412671,The Ameliorative Effect of Silicon on Maize Plants Grown in Mg-Deficient Conditions,"chemistry, 0.2098
+chemical compound, 0.2021
+biological process, 0.1991
+chemical substance, 0.1944
+water, 0.1927
+chemical element, 0.1921
+process, 0.1898"
+6417397,Towards resilience through systems-based plant breeding. A review,"science, 0.2200
+philosophy, 0.2154
+agriculture, 0.2147
+ecology, 0.2144
+concept, 0.2133
+interaction science, 0.2122
+social science, 0.2117"
+6417402,Food systems for sustainable development: proposals for a profound four-part transformation,"science, 0.2162
+social science, 0.2156
+interaction science, 0.2155
+agriculture, 0.2105
+sociology, 0.2104
+food processing, 0.2080
+International development, 0.2076"
+6449481,Unmanned Aerial Vehicle-Based Phenotyping Using Morphometric and Spectral Analysis Can Quantify Responses of Wild Tomato Plants to Salinity Stress,"science, 0.2111
+automation, 0.2060
+statistics, 0.2037
+mathematics, 0.2034
+interaction science, 0.1998
+botany, 0.1993
+information science, 0.1990"
+6471123,"The Campus as a Smart City: University of Málaga Environmental, Learning, and Research Approaches","branch of science, 0.2197
+education, 0.2184
+social science, 0.2179
+interaction science, 0.2168
+science, 0.2154
+software, 0.2143
+business administration, 0.2141"
+6471620,Plant Serine Protease Inhibitors: Biotechnology Application in Agriculture and Molecular Farming,"biological process, 0.1939
+taxon, 0.1936
+group of living things, 0.1875
+process, 0.1849
+social organism behavior, 0.1837
+organism, 0.1828
+establishment of protein localization to spindle pole body, 0.1819"
+6473438,Role of Silicon in Mitigation of Heavy Metal Stresses in Crop Plants,"botany, 0.1992
+software, 0.1935
+biochemistry, 0.1930
+taxon, 0.1920
+economic branch, 0.1893
+medicine, 0.1860
+product, 0.1833"
+6514985,State-of-the-Art Internet of Things in Protected Agriculture,"science, 0.2268
+interaction science, 0.2234
+sociology, 0.2216
+social science, 0.2209
+software, 0.2204
+biology, 0.2198
+computer science, 0.2187"
+6524069,Explorative Frequency Analysis of Leaf Temperature Behavior of Maize (Zea mays subsp. mays) at Water Deficit,"mathematics, 0.1998
+mathematical analysis, 0.1988
+automation, 0.1972
+logic, 0.1936
+art, 0.1920
+pure mathematics, 0.1911
+technology, 0.1904"
+6524378,"Glucosinolate Distribution in the Aerial Parts of sel1-10, a Disruption Mutant of the Sulfate Transporter SULTR1;2, in Mature Arabidopsis thaliana Plants","chemical compound, 0.2441
+conditionally essential amino acids, 0.2145
+glutathione transmembrane transporter activity, 0.2097
+ATPase-coupled cysteine transmembrane transporter activity, 0.2086
+protein, 0.2056
+DL-cysteine, 0.2056
+sulfur, 0.2055"
+6529577,Salmonella Establishment in Agricultural Soil and Colonization of Crop Plants Depend on Soil Type and Plant Species,"interaction science, 0.1937
+communication studies, 0.1864
+cell biology, 0.1836
+media history, 0.1829
+mathematics, 0.1821
+botany, 0.1819
+software, 0.1814"
+6538708,Ethnomedicinal Investigation of Medicinal Plants of Chakrata Region (Uttarakhand) Used in the Traditional Medicine for Diabetes by Jaunsari Tribe,"chemical compound, 0.2167
+taxon, 0.2001
+drug class, 0.1944
+protein, 0.1937
+oxygen, 0.1918
+water, 0.1914
+polysaccharides, 0.1909"
+6539879,Nitrate Reductase-Mediated Nitric Oxide Regulates the Leaf Shape in Arabidopsis by Mediating the Homeostasis of Reactive Oxygen Species,"group, 0.1956
+chemistry, 0.1954
+chemical compound, 0.1826
+object, 0.1792
+science, 0.1766
+cell biology, 0.1749
+engineering, 0.1735"
+6539957,Modified Rice Straw Enhanced Cadmium (II) Immobilization in Soil and Promoted the Degradation of Phenanthrene in Co-Contaminated Soil,"chemistry, 0.2246
+branch of science, 0.2218
+materials science, 0.2103
+engineering, 0.2075
+chemical compound, 0.2067
+inorganic chemistry, 0.2063
+chemical substance, 0.2062"
+6560427,Understanding the Properties of Starch in Potatoes (Solanum tuberosum var. Agria) after Being Treated with Pulsed Electric Field Processing,"chemical compound, 0.1840
+chemical substance, 0.1815
+materials science, 0.1788
+process, 0.1778
+pharmacology, 0.1775
+protein, 0.1762
+interruption science, 0.1740"
+6570029,The economic value of mussel farming for uncertain nutrient removal in the Baltic Sea,"concept, 0.1826
+abstract object, 0.1686
+project, 0.1677
+statistics, 0.1651
+mathematical concept, 0.1650
+philosophical concept, 0.1643
+music genre, 0.1638"
+6571617,"DRB1, DRB2 and DRB4 Are Required for Appropriate Regulation of the microRNA399/PHOSPHATE2 Expression Module in Arabidopsis thaliana","specialty, 0.1987
+process, 0.1936
+economic branch, 0.1925
+biological process, 0.1916
+intentional human action, 0.1913
+classification system, 0.1913
+psychology, 0.1902"
+6587683,"Effects of Winter Cover Crops on Rice Pests, Natural Enemies, and Grain Yield in a Rice Rotation System","agriculture, 0.1976
+pharmacology, 0.1935
+botany, 0.1913
+biology, 0.1902
+silviculture, 0.1898
+pedology, 0.1880
+business administration, 0.1868"
+6630288,"Waterlogging Causes Early Modification in the Physiological Performance, Carotenoids, Chlorophylls, Proline, and Soluble Sugars of Cucumber Plants","biological process, 0.1901
+process, 0.1891
+chemical compound, 0.1842
+carbon, 0.1816
+sucrose catabolic process via 3'-ketosucrose, 0.1806
+glucose metabolic process, 0.1792
+glucose transmembrane transport, 0.1790"
+6630593,Role of Silicon in Mediating Salt Tolerance in Plants: A Review,"chemistry, 0.2149
+chemical compound, 0.2109
+chemical substance, 0.2077
+biological process, 0.2068
+protein, 0.2051
+water, 0.1990
+chemical element, 0.1989"
+6630798,Responses of Tomato Plants under Saline Stress to Foliar Application of Copper Nanoparticles,"base material, 0.1958
+materials science, 0.1936
+medication, 0.1897
+food ingredient, 0.1877
+chemical compound, 0.1863
+pharmacology, 0.1860
+process, 0.1851"
+6681330,Expression of miR159 Is Altered in Tomato Plants Undergoing Drought Stress,"biological process, 0.2150
+RNA, 0.2126
+social organism behavior, 0.2025
+RNA transport, 0.2021
+RNA metabolic process, 0.2002
+RNA catabolic process, 0.1999
+RNA biosynthetic process, 0.1999"
+6681344,"The NAC Protein from Tamarix hispida, ThNAC7, Confers Salt and Osmotic Stress Tolerance by Increasing Reactive Oxygen Species Scavenging Capability","cell, 0.1828
+chemical compound, 0.1809
+biological process, 0.1782
+molecular function, 0.1778
+cell type, 0.1745
+mixture, 0.1743
+cytology, 0.1733"
+6681968,"Isolation, cloning and expression of CCA1 gene in transgenic progeny plants of Japonica rice exhibiting altered morphological traits","construction, 0.1861
+chemical compound, 0.1843
+interaction science, 0.1817
+protein, 0.1813
+biological process, 0.1811
+process, 0.1810
+genome, 0.1795"
+6724085,Phytolith Formation in Plants: From Soil to Cell,"branch of science, 0.2217
+chemistry, 0.2193
+science, 0.2151
+specialty, 0.2111
+biology, 0.2106
+software, 0.2106
+biochemistry, 0.2106"
+6730492,Responses to Hydric Stress in the Seed-Borne Necrotrophic Fungus Alternaria brassicicola,"chemical compound, 0.2248
+chemistry, 0.2181
+biological process, 0.2100
+amino acid, 0.2073
+biopolymer, 0.2070
+taxon, 0.1999
+carbon, 0.1994"
+6736833,Soil temperature and hydric potential influences the monthly variations of soil Tuber aestivum DNA in a highly productive orchard,"statistics, 0.1961
+taxon, 0.1901
+forestry science, 0.1899
+botany, 0.1884
+process, 0.1883
+control, 0.1873
+pedology, 0.1866"
