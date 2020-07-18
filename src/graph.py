@@ -75,7 +75,7 @@ def get_centrality_algorithm_results(g, algorithm, stop_uris, top_n):
                 if g.nodes[key]['n'] != 0
                 and key not in stop_uris}
     best_qids = sorted(metrics, key=metrics.get, reverse=True)[:top_n]
-    return [(g.nodes[qid]['label'], metrics[qid]) for qid in best_qids]
+    return [(g.nodes[qid], metrics[qid]) for qid in best_qids]
 
 
 def get_largest_connected_subgraph(g):
@@ -153,6 +153,7 @@ class WikidataGraphBuilder():
         if term_id not in graph.nodes:
             graph.add_node(term_id)
             #graph.nodes[term_id]['alias'] = _get_aliases(entity_info)
+            graph.nodes[term_id]['qid'] = term_id
             graph.nodes[term_id]['desc'] = _get_desc(entity_info)
             graph.nodes[term_id]['label'] = _get_labels(entity_info)
             graph.nodes[term_id]['n'] = curr_hop
