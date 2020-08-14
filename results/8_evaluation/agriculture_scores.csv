@@ -1,111 +1,111 @@
 id,title,subjects,Topics Predicted,max similarity,min similarity,mean similarity,median similarity
-PMC3310815,Induced Release of a Plant-Defense Volatile ‘Deceptively’ Attracts Insect Vectors to Plants Infected with a Bacterial Pathogen,"Crops
+PMC3310815,Induced Release of a Plant-Defense Volatile ‘Deceptively’ Attracts Insect Vectors to Plants Infected with a Bacterial Pathogen,"Ecology
+Crops
 Zoology
 Agriculture
-Biology
-Ecology","organism
+Biology","organism
 chemistry
 breastfeeding
 pharmacology
 sociology
 chemical element
-forestry science",2.2512917986064953,0.9295359586241757,1.4453305903895894,1.3350010667323402
-PMC3547067,Carbon and Nitrogen Isotopic Survey of Northern Peruvian Plants: Baselines for Paleodietary and Paleoecological Studies,"Archaeology
+forestry science",2.2512917986064953,0.9295359586241757,1.4453305903895892,1.3350010667323402
+PMC3547067,Carbon and Nitrogen Isotopic Survey of Northern Peruvian Plants: Baselines for Paleodietary and Paleoecological Studies,"Paleobotany
+Ecology
+Anthropology
+Radiochemistry
+Isotopes
 Earth Sciences
 Geochemistry
-Radiochemistry
 Chemistry
-Anthropology
-Paleobotany
-Isotopes
-Paleontology
+Archaeology
 Biology
-Ecology","protein
+Paleontology","protein
 specialty
-Area studies
+statistics
+area studies
 agriculture
 regional studies
-statistics
-American studies",1.845826690498331,1.072636802264849,1.4792424232999741,1.4992531002183582
-PMC3672096,Emissions of CH4 and N2O under Different Tillage Systems from Double-Cropped Paddy Fields in Southern China,"Earth Sciences
+science",2.538973871058276,1.072636802264849,1.6911887128516345,1.55814461804655
+PMC3672096,Emissions of CH4 and N2O under Different Tillage Systems from Double-Cropped Paddy Fields in Southern China,"Ecology
+Earth Sciences
 Agriculture
 Climatology
-Biology
-Ecology
-Climate Change","agriculture
-Area studies
+Climate Change
+Biology","agriculture
 physics
+area studies
 regional studies
 occurrence
 physical property
-pharmacology",3.6375861597263857,1.6916760106710724,2.3176120598838184,2.0281482472922856
-PMC3904951,Diversity and Spatial Structure of Belowground Plant–Fungal Symbiosis in a Mixed Subtropical Forest of Ectomycorrhizal and Arbuscular Mycorrhizal Plants,"Botany
-Biodiversity
-Agriculture
-Microbiology
-Mycology
+geographic region",3.6375861597263857,1.4403615823901665,2.2000547269033945,1.6916760106710724
+PMC3904951,Diversity and Spatial Structure of Belowground Plant–Fungal Symbiosis in a Mixed Subtropical Forest of Ectomycorrhizal and Arbuscular Mycorrhizal Plants,"Fungi
 Forestry
-Biology
+Botany
 Ecology
-Fungi","organism
-taxon
-biology
-statistics
-specialty
-forestry science
-botany",3.6375861597263857,1.3350010667323402,2.3998279809935017,2.1153249408646744
-PMC3951315,Effects of Introduced and Indigenous Viruses on Native Plants: Exploring Their Disease Causing Potential at the Agro-Ecological Interface,"Crops
+Microbiology
+Agriculture
 Biodiversity
-Ecosystems
-Agriculture
-Microbiology
-Virology
-Biology
-Ecology","organism
-taxon
-Area studies
-regional studies
-anthropology
+Mycology
+Biology","organism
+statistics
 biology
-pharmacology",3.6375861597263857,1.3350010667323402,2.2771072070615235,2.0281482472922856
-PMC4067337,Effects of Winter Cover Crops Residue Returning on Soil Enzyme Activities and Soil Microbial Community in Double-Cropping Rice Fields,"Crops
-Biotechnology
-Agriculture
+taxon
+mathematical analysis
+specialty
+forestry science",3.6375861597263857,1.3350010667323402,2.152276345246925,1.6916760106710724
+PMC3951315,Effects of Introduced and Indigenous Viruses on Native Plants: Exploring Their Disease Causing Potential at the Agro-Ecological Interface,"Ecology
+Crops
 Microbiology
+Agriculture
+Ecosystems
+Biodiversity
+Biology
+Virology","organism
+taxon
+area studies
+regional studies
+pharmacology
+anthropology
+biology",3.6375861597263857,1.3350010667323402,2.2771072070615235,2.0281482472922856
+PMC4067337,Effects of Winter Cover Crops Residue Returning on Soil Enzyme Activities and Soil Microbial Community in Double-Cropping Rice Fields,"Ecology
 Rice
-Ecology","agriculture
+Crops
+Biotechnology
+Microbiology
+Agriculture","agriculture
 agriculture
+physics
 interaction science
 agricultural science
-gender studies
-botany
-education",3.6375861597263857,1.4403615823901665,2.568419629972372,2.5978653888864676
+chemical substance
+gender studies",3.6375861597263857,1.4403615823901665,2.685920537283806,2.832867203509336
 PMC4128675,"Involvement of Potato (Solanum tuberosum L.) MKK6 in Response to Potato virus Y
 ","Hormones
 Biochemistry
 Plant Hormones","protein
-protein
 area of mathematics
+protein
+taxon
 biopolymer
 chemical compound
-taxon
-second-order metaclass",1.845826690498331,0.9985288301111273,1.4675000462186694,1.55814461804655
-PMC4171492,"Multiple Different Defense Mechanisms Are Activated in the Young Transgenic Tobacco Plants Which Express the Full Length Genome of the Tobacco Mosaic Virus, and Are Resistant against this Virus","Molecular Biology
-Microbiology
-Tobacco Mosaic Virus","protein
-chemistry
+cell biology",1.845826690498331,0.9985288301111273,1.4675000462186694,1.55814461804655
+PMC4171492,"Multiple Different Defense Mechanisms Are Activated in the Young Transgenic Tobacco Plants Which Express the Full Length Genome of the Tobacco Mosaic Virus, and Are Resistant against this Virus","Tobacco Mosaic Virus
+Molecular Biology
+Microbiology","protein
 biological process
+chemistry
 protein
 chemical compound
 biopolymer
 RNA",2.0281482472922856,1.4403615823901665,1.8322193589915792,2.0281482472922856
 PMC4397498,Plant defense phenotypes determine the consequences of volatile emission for individuals and neighbors,Ecology,"organism
-concept
 science
-group
+concept
 interaction science
 statistics
-entity",1.6916760106710724,1.6916760106710724,1.6916760106710724,1.6916760106710724
+group
+biology",1.6916760106710724,1.6916760106710724,1.6916760106710724,1.6916760106710724
 PMC4623198,Beyond conservation agriculture,Environmental Science,"agriculture
 branch of science
 science
@@ -113,120 +113,120 @@ agriculture
 geology
 natural science
 Earth sciences",2.2512917986064953,2.2512917986064953,2.2512917986064953,2.2512917986064953
-PMC4981420,Virus Infection of Plants Alters Pollinator Preference: A Payback for Susceptible Hosts?,"Flowering Plants
-Bumblebees
-Seeds
-Arabidopsis Thaliana
-Invertebrates
-Animals
-Hymenoptera
-Organic Chemistry
-Fruits
-Plants
-Arthropoda
-Insects
-Organic Compounds
+PMC4981420,Virus Infection of Plants Alters Pollinator Preference: A Payback for Susceptible Hosts?,"Crops
+Brassica
 Organisms
-Physical Sciences
-Crops
 Bees
+Arabidopsis Thaliana
+Insects
+Chemistry
 Tomatoes
+Flowering Plants
+Hymenoptera
+Animals
+Fruits
+Flowers
+Organic Compounds
+Plants
+Invertebrates
+Bumblebees
+Physical Sciences
+Arthropoda
 Chemical Compounds
 Agriculture
-Brassica
-Chemistry
-Flowers","organism
+Organic Chemistry
+Seeds","organism
 process
 taxon
 botany
 art
-biological process
-chemical compound",3.6375861597263857,1.55814461804655,2.3716385029140103,1.845826690498331
-PMC5125658,Salicylic Acid Is Involved in the Basal Resistance of Tomato Plants to Citrus Exocortis Viroid and Tomato Spotted Wilt Virus,"Bunyaviruses
+chemical compound
+biological process",3.6375861597263857,1.55814461804655,2.3716385029140103,1.845826690498331
+PMC5125658,Salicylic Acid Is Involved in the Basal Resistance of Tomato Plants to Citrus Exocortis Viroid and Tomato Spotted Wilt Virus,"Crops
 Viruses
-Biochemistry
-Leaves
-Organic Chemistry
-Pathogens
-Plant Hormones
-Fruits
-Plants
-Hormones
 Ethylene
-Organic Compounds
+Microbiology
+Pathogens
 Organisms
-Physical Sciences
-Crops
-Amides
+Biochemistry
+Viroids
+Chemistry
 Tomatoes
+Fruits
+Amides
+Organic Compounds
+Plants
+Physical Sciences
+Leaves
+Hormones
+Bunyaviruses
+Plant Hormones
 Chemical Compounds
 Agriculture
-Microbiology
-Chemistry
-Viroids","organism
+Organic Chemistry","organism
 chemical compound
 protein
 interaction science
 medical specialty
-chemical element
-biopolymer",3.6375861597263857,2.0281482472922856,2.774088537019124,2.538973871058276
-PMC5373544,A systematic review of rodent pest research in Afro-Malagasy small-holder farming systems: Are we asking the right questions?,"Physical Sciences
-Crops
-Ecology
-Plants
-Statistical Methods
+chemical substance
+chemical element",3.6375861597263857,2.0281482472922856,2.80248027737701,2.7417064251123584
+PMC5373544,A systematic review of rodent pest research in Afro-Malagasy small-holder farming systems: Are we asking the right questions?,"Organisms
 Animals
-Agriculture
+Rodents
+Ecology
+Statistical Methods
+Seedlings
+Crops
+Mathematics
+Plants
 Mammals
 Amniotes
-Mathematics
-Seedlings
-Rodents
-Predation
-Organisms
-Vertebrates","class
+Physical Sciences
+Agriculture
+Vertebrates
+Predation","class
 science
 agriculture
 management
 ecology
 statistics
 mass media",3.6375861597263857,1.4403615823901665,2.4926810543978966,2.538973871058276
-PMC5860692,Regulation of reactive oxygen and nitrogen species by salicylic acid in rice plants under salinity stress conditions,"Biochemistry
+PMC5860692,Regulation of reactive oxygen and nitrogen species by salicylic acid in rice plants under salinity stress conditions,"Organisms
+Biochemistry
+Genetics
 Grasses
-Gene Expression
-Physical Sciences
-Leaves
-Plants
+Ecology
 Physical Chemistry
 Rice
-Antioxidants
-Lipids
-Chemistry
-Salinity
+Gene Expression
 Chemical Properties
-Organisms
-Genetics
-Ecology","protein
-biochemistry
+Plants
+Lipids
+Salinity
+Physical Sciences
+Antioxidants
+Chemistry
+Leaves","protein
 process
-protein
-biopolymer
+biochemistry
 biological process
-pharmacology",3.6375861597263857,1.4403615823901665,2.307924810871628,2.1924002807783034
-PMC5935394,Diversification and intensification of agricultural adaptation from global to local scales,"Crops
-Africa
+protein
+pharmacology
+statistics",3.6375861597263857,1.4403615823901665,2.2419107936754425,1.845826690498331
+PMC5935394,Diversification and intensification of agricultural adaptation from global to local scales,"Africa
+Asia
+Crops
 Earth Sciences
 Agriculture
-Asia
 Professions
 Climatology
 Climate Change","interaction science
 regional studies
-branch of science
 science
-Area studies
+area studies
 teaching
-mathematics",2.538973871058276,1.2396908869280152,2.009985518864262,2.2512917986064953
+statistics
+mathematics",2.538973871058276,1.2396908869280152,1.9689458117727794,2.048559244552413
 PMC6066661,Ethnobotany of Anti-hypertensive Plants Used in Northern Pakistan,Pharmacology,"plant
 branch of science
 medicine
@@ -234,43 +234,43 @@ botany
 education
 anthropology
 literary studies",2.9444389791664407,2.9444389791664407,2.9444389791664407,2.9444389791664407
-PMC6070203,Landscape heterogeneity rather than crop diversity mediates bird diversity in agricultural landscapes,"Birds
-Crops
-Biodiversity
-Ecology
+PMC6070203,Landscape heterogeneity rather than crop diversity mediates bird diversity in agricultural landscapes,"Organisms
 Animals
-Agriculture
-Amniotes
+Ecology
+Crops
 Habitats
-Organisms
+Amniotes
+Agriculture
+Vertebrates
+Birds
 Genetics
-Vertebrates","agriculture
+Biodiversity","agriculture
 breastfeeding
-taxon
 science
+taxon
 specialty
 statistics
-software",3.6375861597263857,1.1526795099383855,1.895844122573387,1.55814461804655
-PMC6084956,"Overexpression of the rice gene OsSIZ1 in Arabidopsis improves drought-, heat-, and salt-tolerance simultaneously","Biochemistry
-Physical Sciences
-Proteins
+mathematics",3.6375861597263857,1.4403615823901665,2.0113686526667114,1.7019856542724403
+PMC6084956,"Overexpression of the rice gene OsSIZ1 in Arabidopsis improves drought-, heat-, and salt-tolerance simultaneously","Organisms
+Biochemistry
+Ecology
 Classical Mechanics
-Plants
-Biotechnology
-Brassica
 Seedlings
 Seeds
-Arabidopsis Thaliana
-Organisms
+Proteins
+Plants
 Physics
-Ecology
+Brassica
+Biotechnology
+Arabidopsis Thaliana
+Physical Sciences
 Genetic Engineering","protein
 protein
-biopolymer
-chemical compound
-chemical substance
 interaction science
-soil science",3.6375861597263857,2.0281482472922856,2.888653091337888,2.9444389791664403
+biopolymer
+chemical substance
+mathematics
+statistics",3.6375861597263857,1.845826690498331,2.680087811169977,2.2512917986064953
 PMC6166800,High nitrous oxide fluxes from rice indicate the need to manage water for both long- and short-term climate impacts,"Biological Sciences
 Physical Sciences","agriculture
 management
@@ -286,98 +286,98 @@ group of living things
 plant
 organism
 branch of science",1.6916760106710724,1.6916760106710724,1.6916760106710724,1.6916760106710724
-PMC6242374,Farm-level and community aggregate economic impacts of adopting climate smart agricultural practices in three mega environments,"Grasses
+PMC6242374,Farm-level and community aggregate economic impacts of adopting climate smart agricultural practices in three mega environments,"Organisms
+Grasses
+Asia
+Rice
 Crops
-Maize
-Fertilizers
 Plants
+Fertilizers
+Maize
 Vietnam
 Agriculture
-Rice
-Asia
 Professions
-Farms
-Organisms","agriculture
+Farms","agriculture
 chemistry
 branch of science
-agriculture
 science
+agriculture
 mathematical analysis
-automation",3.6375861597263857,0.9985288301111273,2.115812033888134,1.1526795099383855
-PMC6326430,"Modeling effects of crop production, energy development and conservation-grassland loss on avian habitat","Grasslands
-Birds
-Crops
-Biochemistry
+medicine",3.6375861597263857,0.8649974374866046,2.0582756193977776,1.1526795099383855
+PMC6326430,"Modeling effects of crop production, energy development and conservation-grassland loss on avian habitat","Organisms
 Animals
-Agriculture
+Biochemistry
+Lakes
+Grasslands
+Ecology
+Oils
+Crops
 Earth Sciences
 North America
 Lipids
-Amniotes
-Lakes
-Oils
 Habitats
+Amniotes
 United States
+Agriculture
 Vertebrates
-Organisms
-Ecology","security
-Area studies
-geographic region
+Birds","security
 American studies
+area studies
 property
-geographic location
-statistics",2.538973871058276,1.55814461804655,1.9086552975685573,1.7687513505847017
+geographic region
+statistics
+physics",2.538973871058276,1.55814461804655,2.034719012266501,1.845826690498331
 PMC6529577,Salmonella Establishment in Agricultural Soil and Colonization of Crop Plants Depend on Soil Type and Plant Species,Microbiology,"organism
 interaction science
 communication studies
 cell biology
-media history
 botany
+media history
 mathematics",1.845826690498331,1.845826690498331,1.845826690498331,1.845826690498331
-PMC6570029,The economic value of mussel farming for uncertain nutrient removal in the Baltic Sea,"Physical Sciences
-Earth sciences
-Baltic Sea
-Physical Chemistry
+PMC6570029,The economic value of mussel farming for uncertain nutrient removal in the Baltic Sea,"Organisms
 Animals
+Mussels
+Baltic Sea
+Earth sciences
+Physical Chemistry
+Farms
+Chemical Properties
+Molluscs
+Mathematics
+Invertebrates
+Salinity
+Normal Distribution
+Physical Sciences
 Agriculture
 Chemistry
-Mathematics
 Probability Theory
-Bivalves
-Molluscs
-Organisms
-Chemical Properties
-Farms
-Invertebrates
-Normal Distribution
-Salinity
-Mussels","plant
+Bivalves","plant
 concept
 drainage basin
 geographic region
 construction
 statistics
 abstract object",2.538973871058276,1.3350010667323402,1.7511912646417305,1.6916760106710724
-PMC6681968,"Isolation, cloning and expression of CCA1 gene in transgenic progeny plants of Japonica rice exhibiting altered morphological traits","Molecular Biology
+PMC6681968,"Isolation, cloning and expression of CCA1 gene in transgenic progeny plants of Japonica rice exhibiting altered morphological traits","Organisms
+Genetics
 Biochemistry
 Grasses
-Bioengineering
-Gene Expression
-RNA
-Plants
-Nucleic acids
-Biotechnology
-Rice
-Cloning
-Seeds
 Gene expression
-Organisms
-Genetics
-Genetic Engineering","interaction science
-chemical compound
+Nucleic acids
+Rice
+Seeds
+Gene Expression
+Plants
+RNA
+Biotechnology
+Bioengineering
+Genetic Engineering
+Molecular Biology
+Cloning","interaction science
 construction
-protein
+chemical compound
 interaction science
+protein
 genome
 occupation",2.538973871058276,1.2396908869280152,1.8421568627646914,1.55814461804655
 PMC6730492,Responses to Hydric Stress in the Seed-Borne Necrotrophic Fungus Alternaria brassicicola,Microbiology,"protein
@@ -385,5 +385,5 @@ chemical compound
 protein
 chemistry
 glycine
-biopolymer
-amino acid",2.0281482472922856,2.0281482472922856,2.0281482472922856,2.0281482472922856
+area of mathematics
+chemical substance",2.0281482472922856,2.0281482472922856,2.0281482472922856,2.0281482472922856
