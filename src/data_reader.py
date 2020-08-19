@@ -6,8 +6,8 @@ def get_abstract(article_soup):
     return article_soup.find('abstract').text
 
 def get_authors(article_soup):
-    return [author.find('name').get_text(separator=' ') 
-            for author in article_soup.find_all('contrib', 
+    return [author.find('name').get_text(separator=' ')
+            for author in article_soup.find_all('contrib',
                                         {'contrib-type': 'author'})]
 
 def get_full_body(article_soup):
@@ -22,7 +22,7 @@ def get_references_titles(article_soup):
             if reference.find('article-title')]
 
 def get_subjects(article_soup):
-    return [subj.text 
+    return [subj.text
             for subj in article_soup.find_all('subject')
             if subj.text.lower() not in ['review', 'article', 'research article']]
 

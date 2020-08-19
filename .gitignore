@@ -146,6 +146,7 @@ cython_debug/
 
 # ignore pickled files for now
 *.pkl
+!pmc_dataframe.pkl
 
 # secret keys
 notebooks/secret.py

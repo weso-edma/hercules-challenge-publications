@@ -1,383 +1,383 @@
 id,title,topics_from_lda
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3310815,Induced Release of a Plant-Defense Volatile ‘Deceptively’ Attracts Insect Vectors to Plants Infected with a Bacterial Pathogen,"organism, 0.99980
+PMC3310815,Induced Release of a Plant-Defense Volatile ‘Deceptively’ Attracts Insect Vectors to Plants Infected with a Bacterial Pathogen,"organism, 0.99980
 protein, 0.00002
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3547067,Carbon and Nitrogen Isotopic Survey of Northern Peruvian Plants: Baselines for Paleodietary and Paleoecological Studies,"protein, 0.66978
+PMC3547067,Carbon and Nitrogen Isotopic Survey of Northern Peruvian Plants: Baselines for Paleodietary and Paleoecological Studies,"protein, 0.66978
 agriculture, 0.22194
 plant, 0.09175"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3668195,The effect of ‘Candidatus Liberibacter asiaticus’ infection on the proteomic profiles and nutritional status of pre-symptomatic and symptomatic grapefruit (Citrus paradisi) plants,"organism, 0.80829
+PMC3668195,The effect of ‘Candidatus Liberibacter asiaticus’ infection on the proteomic profiles and nutritional status of pre-symptomatic and symptomatic grapefruit (Citrus paradisi) plants,"organism, 0.80829
 protein, 0.18884
 protein, 0.00274"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3672096,Emissions of CH4 and N2O under Different Tillage Systems from Double-Cropped Paddy Fields in Southern China,"agriculture, 0.99958
+PMC3672096,Emissions of CH4 and N2O under Different Tillage Systems from Double-Cropped Paddy Fields in Southern China,"agriculture, 0.99958
 protein, 0.00005
 protein, 0.00005"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3676804,"Physiological, Biochemical, and Molecular Mechanisms of Heat Stress Tolerance in Plants","protein, 0.58088
+PMC3676804,"Physiological, Biochemical, and Molecular Mechanisms of Heat Stress Tolerance in Plants","protein, 0.58088
 interaction science, 0.35093
 protein, 0.03873"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3676838,Plant Defense against Insect Herbivores,"organism, 0.99641
+PMC3676838,Plant Defense against Insect Herbivores,"organism, 0.99641
 protein, 0.00349
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3818224,Enhanced Methanol Production in Plants Provides Broad Spectrum Insect Resistance,"protein, 0.80755
+PMC3818224,Enhanced Methanol Production in Plants Provides Broad Spectrum Insect Resistance,"protein, 0.80755
 organism, 0.19223
 security, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3904951,Diversity and Spatial Structure of Belowground Plant–Fungal Symbiosis in a Mixed Subtropical Forest of Ectomycorrhizal and Arbuscular Mycorrhizal Plants,"organism, 0.99981
+PMC3904951,Diversity and Spatial Structure of Belowground Plant–Fungal Symbiosis in a Mixed Subtropical Forest of Ectomycorrhizal and Arbuscular Mycorrhizal Plants,"organism, 0.99981
 security, 0.00002
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC3951315,Effects of Introduced and Indigenous Viruses on Native Plants: Exploring Their Disease Causing Potential at the Agro-Ecological Interface,"organism, 0.99986
+PMC3951315,Effects of Introduced and Indigenous Viruses on Native Plants: Exploring Their Disease Causing Potential at the Agro-Ecological Interface,"organism, 0.99986
 security, 0.00002
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4067337,Effects of Winter Cover Crops Residue Returning on Soil Enzyme Activities and Soil Microbial Community in Double-Cropping Rice Fields,"agriculture, 0.99958
+PMC4067337,Effects of Winter Cover Crops Residue Returning on Soil Enzyme Activities and Soil Microbial Community in Double-Cropping Rice Fields,"agriculture, 0.99958
 protein, 0.00005
 organism, 0.00005"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4112640,H2O2 mediates the crosstalk of brassinosteroid and abscisic acid in tomato responses to heat and oxidative stresses,"protein, 0.57566
+PMC4112640,H2O2 mediates the crosstalk of brassinosteroid and abscisic acid in tomato responses to heat and oxidative stresses,"protein, 0.57566
 protein, 0.42410
 interaction science, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4128675,"Involvement of Potato (Solanum tuberosum L.) MKK6 in Response to Potato virus Y
+PMC4128675,"Involvement of Potato (Solanum tuberosum L.) MKK6 in Response to Potato virus Y
 ","protein, 0.95368
 organism, 0.03928
 protein, 0.00687"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4171492,"Multiple Different Defense Mechanisms Are Activated in the Young Transgenic Tobacco Plants Which Express the Full Length Genome of the Tobacco Mosaic Virus, and Are Resistant against this Virus","protein, 0.99982
+PMC4171492,"Multiple Different Defense Mechanisms Are Activated in the Young Transgenic Tobacco Plants Which Express the Full Length Genome of the Tobacco Mosaic Virus, and Are Resistant against this Virus","protein, 0.99982
 protein, 0.00002
 organism, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4237146,Potato virus Y infection hinders potato defence response and renders plants more vulnerable to Colorado potato beetle attack,"organism, 0.99976
+PMC4237146,Potato virus Y infection hinders potato defence response and renders plants more vulnerable to Colorado potato beetle attack,"organism, 0.99976
 protein, 0.00003
 protein, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4378629,"Antagonism between phytohormone signalling underlies the variation in disease susceptibility of tomato plants under elevated CO2
+PMC4378629,"Antagonism between phytohormone signalling underlies the variation in disease susceptibility of tomato plants under elevated CO2
 ","protein, 0.88503
 protein, 0.08987
 organism, 0.02490"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4379157,Estimating Annual Soil Carbon Loss in Agricultural Peatland Soils Using a Nitrogen Budget Approach,"agriculture, 0.90400
+PMC4379157,Estimating Annual Soil Carbon Loss in Agricultural Peatland Soils Using a Nitrogen Budget Approach,"agriculture, 0.90400
 security, 0.09577
 organism, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4392563,Inhibition of Cholinesterases and Some Pro-Oxidant induced Oxidative Stress in Rats Brain by Two Tomato (Lycopersicon Esculentum) Varieties,"organism, 0.99524
+PMC4392563,Inhibition of Cholinesterases and Some Pro-Oxidant induced Oxidative Stress in Rats Brain by Two Tomato (Lycopersicon Esculentum) Varieties,"organism, 0.99524
 agriculture, 0.00404
 plant, 0.00010"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4397498,Plant defense phenotypes determine the consequences of volatile emission for individuals and neighbors,"organism, 0.99989
+PMC4397498,Plant defense phenotypes determine the consequences of volatile emission for individuals and neighbors,"organism, 0.99989
 agriculture, 0.00001
 agriculture, 0.00001"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4421779,Rice (Oryza sativa L) plantation affects the stability of biochar in paddy soil,"agriculture, 0.89186
+PMC4421779,Rice (Oryza sativa L) plantation affects the stability of biochar in paddy soil,"agriculture, 0.89186
 protein, 0.05670
 organism, 0.05116"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4427476,Root-Derived Short-Chain Suberin Diacids from Rice and Rape Seed in a Paddy Soil under Rice Cultivar Treatments,"agriculture, 0.91761
+PMC4427476,Root-Derived Short-Chain Suberin Diacids from Rice and Rape Seed in a Paddy Soil under Rice Cultivar Treatments,"agriculture, 0.91761
 protein, 0.08211
 organism, 0.00004"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4449599,Ethnobotanical study on medicinal plants used by Maonan people in China,"plant, 0.99991
+PMC4449599,Ethnobotanical study on medicinal plants used by Maonan people in China,"plant, 0.99991
 agriculture, 0.00001
 protein, 0.00001"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4501783,Potato Annexin STANN1 Promotes Drought Tolerance and Mitigates Light Stress in Transgenic Solanum tuberosum L. Plants,"protein, 0.75888
+PMC4501783,Potato Annexin STANN1 Promotes Drought Tolerance and Mitigates Light Stress in Transgenic Solanum tuberosum L. Plants,"protein, 0.75888
 protein, 0.24101
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4520592,Effects of Residue Management on Decomposition in Irrigated Rice Fields Are Not Related to Changes in the Decomposer Community,"agriculture, 0.99975
+PMC4520592,Effects of Residue Management on Decomposition in Irrigated Rice Fields Are Not Related to Changes in the Decomposer Community,"agriculture, 0.99975
 organism, 0.00003
 protein, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4581289,"Route and Regulation of Zinc, Cadmium, and Iron Transport in Rice Plants (Oryza sativa L.) during Vegetative Growth and Grain Filling: Metal Transporters, Metal Speciation, Grain Cd Reduction and Zn and Fe Biofortification","protein, 0.87067
+PMC4581289,"Route and Regulation of Zinc, Cadmium, and Iron Transport in Rice Plants (Oryza sativa L.) during Vegetative Growth and Grain Filling: Metal Transporters, Metal Speciation, Grain Cd Reduction and Zn and Fe Biofortification","protein, 0.87067
 agriculture, 0.12900
 plant, 0.00005"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4598160,A Novel Route Controlling Begomovirus Resistance by the Messenger RNA Surveillance Factor Pelota,"protein, 0.99976
+PMC4598160,A Novel Route Controlling Begomovirus Resistance by the Messenger RNA Surveillance Factor Pelota,"protein, 0.99976
 organism, 0.00003
 agriculture, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4623198,Beyond conservation agriculture,"agriculture, 0.61366
+PMC4623198,Beyond conservation agriculture,"agriculture, 0.61366
 agriculture, 0.34459
 security, 0.03960"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4720047,"Anxiety and Depression Symptoms Among Farmers: The HUNT Study, Norway","agriculture, 0.88276
+PMC4720047,"Anxiety and Depression Symptoms Among Farmers: The HUNT Study, Norway","agriculture, 0.88276
 agriculture, 0.06522
 plant, 0.03227"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4824577,Tomato HsfA1a plays a critical role in plant drought tolerance by activating ATG genes and inducing autophagy,"protein, 0.99979
+PMC4824577,Tomato HsfA1a plays a critical role in plant drought tolerance by activating ATG genes and inducing autophagy,"protein, 0.99979
 protein, 0.00003
 interaction science, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4844397,"Sulfite Oxidase Activity Is Essential for Normal Sulfur, Nitrogen and Carbon Metabolism in Tomato Leaves","protein, 0.99984
+PMC4844397,"Sulfite Oxidase Activity Is Essential for Normal Sulfur, Nitrogen and Carbon Metabolism in Tomato Leaves","protein, 0.99984
 agriculture, 0.00002
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4867051,Co-overexpressing a Plasma Membrane and a Vacuolar Membrane Sodium/Proton Antiporter Significantly Improves Salt Tolerance in Transgenic Arabidopsis Plants,"protein, 0.73651
+PMC4867051,Co-overexpressing a Plasma Membrane and a Vacuolar Membrane Sodium/Proton Antiporter Significantly Improves Salt Tolerance in Transgenic Arabidopsis Plants,"protein, 0.73651
 organism, 0.17582
 protein, 0.08750"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4879578,Fungal endophytes of Catharanthus roseus enhance vindoline content by modulating structural and regulatory genes related to terpenoid indole alkaloid biosynthesis,"organism, 0.86197
+PMC4879578,Fungal endophytes of Catharanthus roseus enhance vindoline content by modulating structural and regulatory genes related to terpenoid indole alkaloid biosynthesis,"organism, 0.86197
 protein, 0.13777
 protein, 0.00004"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4898372,Multiwalled carbon nanotubes enter broccoli cells enhancing growth and water uptake of plants exposed to salinity,"protein, 0.74234
+PMC4898372,Multiwalled carbon nanotubes enter broccoli cells enhancing growth and water uptake of plants exposed to salinity,"protein, 0.74234
 interaction science, 0.25744
 agriculture, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4913302,A two-year field measurement of methane and nitrous oxide fluxes from rice paddies under contrasting climate conditions,"agriculture, 0.97634
+PMC4913302,A two-year field measurement of methane and nitrous oxide fluxes from rice paddies under contrasting climate conditions,"agriculture, 0.97634
 protein, 0.02334
 protein, 0.00005"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4932627,Optimizing rice plant photosynthate allocation reduces N2O emissions from paddy fields,"agriculture, 0.71630
+PMC4932627,Optimizing rice plant photosynthate allocation reduces N2O emissions from paddy fields,"agriculture, 0.71630
 organism, 0.26746
 protein, 0.01586"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4981420,Virus Infection of Plants Alters Pollinator Preference: A Payback for Susceptible Hosts?,"organism, 0.99951
+PMC4981420,Virus Infection of Plants Alters Pollinator Preference: A Payback for Susceptible Hosts?,"organism, 0.99951
 protein, 0.00036
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC4998141,Estimation of phenotypic variability in symbiotic nitrogen fixation ability of common bean under drought stress using 15N natural abundance in grain,"class, 0.79239
+PMC4998141,Estimation of phenotypic variability in symbiotic nitrogen fixation ability of common bean under drought stress using 15N natural abundance in grain,"class, 0.79239
 agriculture, 0.13397
 protein, 0.07338"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5011652,Endophytic fungus Phomopsis liquidambari and different doses of N-fertilizer alter microbial community structure and function in rhizosphere of rice,"organism, 0.54428
+PMC5011652,Endophytic fungus Phomopsis liquidambari and different doses of N-fertilizer alter microbial community structure and function in rhizosphere of rice,"organism, 0.54428
 agriculture, 0.43997
 protein, 0.01558"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5052518,Plant growth promoting rhizobacteria Dietzia natronolimnaea modulates the expression of stress responsive genes providing protection of wheat from salinity stress,"protein, 0.57563
+PMC5052518,Plant growth promoting rhizobacteria Dietzia natronolimnaea modulates the expression of stress responsive genes providing protection of wheat from salinity stress,"protein, 0.57563
 organism, 0.42415
 agriculture, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5055509,Which factor contribute most to empower farmers through e-Agriculture in Bangladesh?,"agriculture, 0.73740
+PMC5055509,Which factor contribute most to empower farmers through e-Agriculture in Bangladesh?,"agriculture, 0.73740
 agriculture, 0.16895
 security, 0.09339"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5066492,"CaLecRK-S.5, a pepper L-type lectin receptor kinase gene, confers broad-spectrum resistance by activating priming","protein, 0.99981
+PMC5066492,"CaLecRK-S.5, a pepper L-type lectin receptor kinase gene, confers broad-spectrum resistance by activating priming","protein, 0.99981
 organism, 0.00002
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5095167,Temporal variability in trace metal solubility in a paddy soil not reflected in uptake by rice (Oryza sativa L.),"agriculture, 0.60735
+PMC5095167,Temporal variability in trace metal solubility in a paddy soil not reflected in uptake by rice (Oryza sativa L.),"agriculture, 0.60735
 organism, 0.39241
 protein, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5125658,Salicylic Acid Is Involved in the Basal Resistance of Tomato Plants to Citrus Exocortis Viroid and Tomato Spotted Wilt Virus,"organism, 0.99980
+PMC5125658,Salicylic Acid Is Involved in the Basal Resistance of Tomato Plants to Citrus Exocortis Viroid and Tomato Spotted Wilt Virus,"organism, 0.99980
 protein, 0.00003
 protein, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5253511,Novel Approach to Classify Plants Based on Metabolite-Content Similarity,"plant, 0.56411
+PMC5253511,Novel Approach to Classify Plants Based on Metabolite-Content Similarity,"plant, 0.56411
 agriculture, 0.14855
 organism, 0.14360"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5299730,"Variability among Cucurbitaceae species (melon, cucumber and watermelon) in a genomic region containing a cluster of NBS-LRR genes","class, 0.99944
+PMC5299730,"Variability among Cucurbitaceae species (melon, cucumber and watermelon) in a genomic region containing a cluster of NBS-LRR genes","class, 0.99944
 protein, 0.00007
 protein, 0.00007"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5313494,From berries to blocks: carbon stock quantification of a California vineyard,"interaction science, 0.52595
+PMC5313494,From berries to blocks: carbon stock quantification of a California vineyard,"interaction science, 0.52595
 agriculture, 0.38243
 security, 0.05242"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5324297,"Folk use of medicinal plants in Karst and Gorjanci, Slovenia","organism, 0.54508
+PMC5324297,"Folk use of medicinal plants in Karst and Gorjanci, Slovenia","organism, 0.54508
 plant, 0.45482
 agriculture, 0.00001"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5362684,Double overexpression of DREB and PIF transcription factors improves drought stress tolerance and cell elongation in transgenic plants,"protein, 0.84433
+PMC5362684,Double overexpression of DREB and PIF transcription factors improves drought stress tolerance and cell elongation in transgenic plants,"protein, 0.84433
 organism, 0.08719
 protein, 0.06829"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5373544,A systematic review of rodent pest research in Afro-Malagasy small-holder farming systems: Are we asking the right questions?,"class, 0.83176
+PMC5373544,A systematic review of rodent pest research in Afro-Malagasy small-holder farming systems: Are we asking the right questions?,"class, 0.83176
 agriculture, 0.11842
 security, 0.04956"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5413563,Plant Growth under Natural Light Conditions Provides Highly Flexible Short-Term Acclimation Properties toward High Light Stress,"protein, 0.95956
+PMC5413563,Plant Growth under Natural Light Conditions Provides Highly Flexible Short-Term Acclimation Properties toward High Light Stress,"protein, 0.95956
 protein, 0.04028
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5441857,Acceleration of leaf senescence is slowed down in transgenic barley plants deficient in the DNA/RNA-binding protein WHIRLY1,"protein, 0.80983
+PMC5441857,Acceleration of leaf senescence is slowed down in transgenic barley plants deficient in the DNA/RNA-binding protein WHIRLY1,"protein, 0.80983
 protein, 0.18996
 interaction science, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5447229,Endophytic Paecilomyces formosus LHL10 Augments Glycine max L. Adaptation to Ni-Contamination through Affecting Endogenous Phytohormones and Oxidative Stress,"organism, 0.70068
+PMC5447229,Endophytic Paecilomyces formosus LHL10 Augments Glycine max L. Adaptation to Ni-Contamination through Affecting Endogenous Phytohormones and Oxidative Stress,"organism, 0.70068
 protein, 0.29917
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5465592,Ethnobotanical survey of medicinal plants used as insects repellents in six malaria endemic localities of Cameroon,"class, 0.79264
+PMC5465592,Ethnobotanical survey of medicinal plants used as insects repellents in six malaria endemic localities of Cameroon,"class, 0.79264
 plant, 0.20716
 organism, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5472609,"Chinese Milk Vetch Improves Plant Growth, Development and 15N Recovery in the Rice-Based Rotation System of South China","agriculture, 0.60780
+PMC5472609,"Chinese Milk Vetch Improves Plant Growth, Development and 15N Recovery in the Rice-Based Rotation System of South China","agriculture, 0.60780
 organism, 0.29505
 protein, 0.09694"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5521873,Differences in gluten protein composition between old and modern durum wheat genotypes in relation to 20th century breeding in Italy,"class, 0.88803
+PMC5521873,Differences in gluten protein composition between old and modern durum wheat genotypes in relation to 20th century breeding in Italy,"class, 0.88803
 protein, 0.09933
 agriculture, 0.01247"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5559270,Lipid transfer from plants to arbuscular mycorrhiza fungi,"protein, 0.99988
+PMC5559270,Lipid transfer from plants to arbuscular mycorrhiza fungi,"protein, 0.99988
 organism, 0.00001
 protein, 0.00001"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5579920,Energy-Efficient Wireless Sensor Networks for Precision Agriculture: A Review,"agriculture, 0.99854
+PMC5579920,Energy-Efficient Wireless Sensor Networks for Precision Agriculture: A Review,"agriculture, 0.99854
 protein, 0.00135
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5620588,"Differential Mechanisms of Photosynthetic Acclimation to Light and Low Temperature in Arabidopsis and the Extremophile Eutrema
+PMC5620588,"Differential Mechanisms of Photosynthetic Acclimation to Light and Low Temperature in Arabidopsis and the Extremophile Eutrema
 salsugineum","protein, 0.99985
 agriculture, 0.00002
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5633626,Within and beyond the stringent response-RSH and (p)ppGpp in plants,"interaction science, 0.85281
+PMC5633626,Within and beyond the stringent response-RSH and (p)ppGpp in plants,"interaction science, 0.85281
 protein, 0.14710
 protein, 0.00001"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5637878,Evaluation of long-term conservation agriculture and crop intensification in rice-wheat rotation of Indo-Gangetic Plains of South Asia: Carbon dynamics and productivity,"agriculture, 0.99978
+PMC5637878,Evaluation of long-term conservation agriculture and crop intensification in rice-wheat rotation of Indo-Gangetic Plains of South Asia: Carbon dynamics and productivity,"agriculture, 0.99978
 security, 0.00003
 interaction science, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5669304,"Root growth in field-grown winter wheat: Some effects of soil conditions, season and genotype","agriculture, 0.57903
+PMC5669304,"Root growth in field-grown winter wheat: Some effects of soil conditions, season and genotype","agriculture, 0.57903
 protein, 0.42072
 agriculture, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5688476,A key enzyme of animal steroidogenesis can function in plants enhancing their immunity and accelerating the processes of growth and development,"protein, 0.72409
+PMC5688476,A key enzyme of animal steroidogenesis can function in plants enhancing their immunity and accelerating the processes of growth and development,"protein, 0.72409
 organism, 0.21162
 protein, 0.06409"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5738964,"Climate smart agriculture, farm household typologies and food security","class, 0.46144
+PMC5738964,"Climate smart agriculture, farm household typologies and food security","class, 0.46144
 security, 0.25420
 agriculture, 0.23786"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5755014,"Exogenous short-term silicon application regulates macro-nutrients, endogenous phytohormones, and protein expression in Oryza sativa L.","protein, 0.93222
+PMC5755014,"Exogenous short-term silicon application regulates macro-nutrients, endogenous phytohormones, and protein expression in Oryza sativa L.","protein, 0.93222
 agriculture, 0.06751
 organism, 0.00004"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5758783,Yield and resource use efficiency of Plukenetia volubilis plants at two distinct growth stages as affected by irrigation and fertilization,"agriculture, 0.54162
+PMC5758783,Yield and resource use efficiency of Plukenetia volubilis plants at two distinct growth stages as affected by irrigation and fertilization,"agriculture, 0.54162
 protein, 0.45816
 plant, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5762720,Ultraviolet-B enhances the resistance of multiple plant species to lepidopteran insect herbivory through the jasmonic acid pathway,"organism, 0.75941
+PMC5762720,Ultraviolet-B enhances the resistance of multiple plant species to lepidopteran insect herbivory through the jasmonic acid pathway,"organism, 0.75941
 protein, 0.16970
 protein, 0.03714"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5763371,Susceptibility of Faba Bean (Vicia faba L.) to Heat Stress During Floral Development and Anthesis,"interaction science, 0.90326
+PMC5763371,Susceptibility of Faba Bean (Vicia faba L.) to Heat Stress During Floral Development and Anthesis,"interaction science, 0.90326
 agriculture, 0.09037
 agriculture, 0.00614"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5800158,"Arsenic Uptake, Toxicity, Detoxification, and Speciation in Plants: Physiological, Biochemical, and Molecular Aspects","organism, 0.50171
+PMC5800158,"Arsenic Uptake, Toxicity, Detoxification, and Speciation in Plants: Physiological, Biochemical, and Molecular Aspects","organism, 0.50171
 protein, 0.47462
 agriculture, 0.02356"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5853279,The role of Arabidopsis aldehyde dehydrogenase genes in response to high temperature and stress combinations,"protein, 0.97493
+PMC5853279,The role of Arabidopsis aldehyde dehydrogenase genes in response to high temperature and stress combinations,"protein, 0.97493
 protein, 0.02487
 interaction science, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5860692,Regulation of reactive oxygen and nitrogen species by salicylic acid in rice plants under salinity stress conditions,"protein, 0.98313
+PMC5860692,Regulation of reactive oxygen and nitrogen species by salicylic acid in rice plants under salinity stress conditions,"protein, 0.98313
 agriculture, 0.01664
 protein, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5882813,Endophytes of Withania somnifera modulate in planta content and the site of withanolide biosynthesis,"organism, 0.99981
+PMC5882813,Endophytes of Withania somnifera modulate in planta content and the site of withanolide biosynthesis,"organism, 0.99981
 plant, 0.00002
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5908804,Gene refashioning through innovative shifting of reading frames in mosses,"protein, 0.99977
+PMC5908804,Gene refashioning through innovative shifting of reading frames in mosses,"protein, 0.99977
 security, 0.00003
 interaction science, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5935394,Diversification and intensification of agricultural adaptation from global to local scales,"interaction science, 0.63599
+PMC5935394,Diversification and intensification of agricultural adaptation from global to local scales,"interaction science, 0.63599
 security, 0.18063
 agriculture, 0.17597"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC5995558,Socio-cultural contribution to medicinal plants assessment and sustainable development: case of antidiabetic and antihypertensive plants in Cameroon,"plant, 0.94921
+PMC5995558,Socio-cultural contribution to medicinal plants assessment and sustainable development: case of antidiabetic and antihypertensive plants in Cameroon,"plant, 0.94921
 protein, 0.03051
 security, 0.01987"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6013986,Climate-smart agriculture for sustainable agricultural sectors: The case of Mooifontein,"agriculture, 0.59297
+PMC6013986,Climate-smart agriculture for sustainable agricultural sectors: The case of Mooifontein,"agriculture, 0.59297
 security, 0.23257
 agriculture, 0.17420"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6021986,A Mission Planning Approach for Precision Farming Systems Based on Multi-Objective Optimization,"agriculture, 0.93007
+PMC6021986,A Mission Planning Approach for Precision Farming Systems Based on Multi-Objective Optimization,"agriculture, 0.93007
 protein, 0.06980
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6055696,Agricultural diversification as an important strategy for achieving food security in Africa,"interaction science, 0.34551
+PMC6055696,Agricultural diversification as an important strategy for achieving food security in Africa,"interaction science, 0.34551
 security, 0.22984
 agriculture, 0.21294"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6066661,Ethnobotany of Anti-hypertensive Plants Used in Northern Pakistan,"plant, 0.98587
+PMC6066661,Ethnobotany of Anti-hypertensive Plants Used in Northern Pakistan,"plant, 0.98587
 organism, 0.01380
 agriculture, 0.00005"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6070203,Landscape heterogeneity rather than crop diversity mediates bird diversity in agricultural landscapes,"agriculture, 0.77406
+PMC6070203,Landscape heterogeneity rather than crop diversity mediates bird diversity in agricultural landscapes,"agriculture, 0.77406
 agriculture, 0.19391
 security, 0.03181"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6084956,"Overexpression of the rice gene OsSIZ1 in Arabidopsis improves drought-, heat-, and salt-tolerance simultaneously","protein, 0.99981
+PMC6084956,"Overexpression of the rice gene OsSIZ1 in Arabidopsis improves drought-, heat-, and salt-tolerance simultaneously","protein, 0.99981
 protein, 0.00002
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6166800,High nitrous oxide fluxes from rice indicate the need to manage water for both long- and short-term climate impacts,"agriculture, 0.99964
+PMC6166800,High nitrous oxide fluxes from rice indicate the need to manage water for both long- and short-term climate impacts,"agriculture, 0.99964
 security, 0.00005
 agriculture, 0.00005"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6191707,Ancient plants with ancient fungi: liverworts associate with early-diverging arbuscular mycorrhizal fungi,"agriculture, 0.57800
+PMC6191707,Ancient plants with ancient fungi: liverworts associate with early-diverging arbuscular mycorrhizal fungi,"agriculture, 0.57800
 organism, 0.32607
 protein, 0.09568"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6198449,Exo-ethylene application mitigates waterlogging stress in soybean (Glycine max L.),"protein, 0.98442
+PMC6198449,Exo-ethylene application mitigates waterlogging stress in soybean (Glycine max L.),"protein, 0.98442
 agriculture, 0.01540
 agriculture, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6213855,Importance of Mineral Nutrition for Mitigating Aluminum Toxicity in Plants on Acidic Soils: Current Status and Opportunities,"organism, 0.70511
+PMC6213855,Importance of Mineral Nutrition for Mitigating Aluminum Toxicity in Plants on Acidic Soils: Current Status and Opportunities,"organism, 0.70511
 agriculture, 0.17260
 protein, 0.12212"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6215673,"Ethnobotanical study of medicinal plants in Ganta Afeshum District, Eastern Zone of Tigray, Northern Ethiopia","plant, 0.99448
+PMC6215673,"Ethnobotanical study of medicinal plants in Ganta Afeshum District, Eastern Zone of Tigray, Northern Ethiopia","plant, 0.99448
 agriculture, 0.00533
 class, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6232530,"The Beneficial Endophytic Fungus Fusarium
+PMC6232530,"The Beneficial Endophytic Fungus Fusarium
 solani Strain K Alters Tomato Responses Against Spider Mites to the Benefit of the Plant","organism, 0.99984
 protein, 0.00002
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6242374,Farm-level and community aggregate economic impacts of adopting climate smart agricultural practices in three mega environments,"agriculture, 0.88342
+PMC6242374,Farm-level and community aggregate economic impacts of adopting climate smart agricultural practices in three mega environments,"agriculture, 0.88342
 agriculture, 0.06771
 security, 0.04873"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6262949,"Indigenous knowledge of dye-yielding plants among Bai communities in Dali, Northwest Yunnan, China","organism, 0.59743
+PMC6262949,"Indigenous knowledge of dye-yielding plants among Bai communities in Dali, Northwest Yunnan, China","organism, 0.59743
 plant, 0.38727
 security, 0.01507"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6277847,Modification of Barley Plant Productivity Through Regulation of Cytokinin Content by Reverse-Genetics Approaches,"class, 0.48921
+PMC6277847,Modification of Barley Plant Productivity Through Regulation of Cytokinin Content by Reverse-Genetics Approaches,"class, 0.48921
 protein, 0.37878
 protein, 0.12301"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6322579,Airborne signals synchronize the defenses of neighboring plants in response to touch,"organism, 0.99966
+PMC6322579,Airborne signals synchronize the defenses of neighboring plants in response to touch,"organism, 0.99966
 protein, 0.00004
 protein, 0.00004"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6326430,"Modeling effects of crop production, energy development and conservation-grassland loss on avian habitat","security, 0.96632
+PMC6326430,"Modeling effects of crop production, energy development and conservation-grassland loss on avian habitat","security, 0.96632
 agriculture, 0.03346
 protein, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6337918,Tolerance of Transplastomic Tobacco Plants Overexpressing a Theta Class Glutathione Transferase to Abiotic and Oxidative Stresses,"organism, 0.50507
+PMC6337918,Tolerance of Transplastomic Tobacco Plants Overexpressing a Theta Class Glutathione Transferase to Abiotic and Oxidative Stresses,"organism, 0.50507
 protein, 0.43143
 protein, 0.06334"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6358044,"Impact of conservation tillage in rice–based cropping systems on soil aggregation, carbon pools and nutrients","agriculture, 0.98761
+PMC6358044,"Impact of conservation tillage in rice–based cropping systems on soil aggregation, carbon pools and nutrients","agriculture, 0.98761
 agriculture, 0.01217
 class, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6366173,Variation in defence strategies in the metal hyperaccumulator plant Noccaea caerulescens is indicative of synergies and trade-offs between forms of defence,"protein, 0.97982
+PMC6366173,Variation in defence strategies in the metal hyperaccumulator plant Noccaea caerulescens is indicative of synergies and trade-offs between forms of defence,"protein, 0.97982
 organism, 0.01991
 agriculture, 0.00004"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6376693,Co-expression of SpSOS1 and SpAHA1 in transgenic Arabidopsis plants improves salinity tolerance,"protein, 0.56734
+PMC6376693,Co-expression of SpSOS1 and SpAHA1 in transgenic Arabidopsis plants improves salinity tolerance,"protein, 0.56734
 organism, 0.21743
 protein, 0.21500"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6390929,Enhancing agroecosystem productivity with woody perennials in semi-arid West Africa. A meta-analysis,"protein, 0.53870
+PMC6390929,Enhancing agroecosystem productivity with woody perennials in semi-arid West Africa. A meta-analysis,"protein, 0.53870
 agriculture, 0.30684
 agriculture, 0.10084"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6390932,Grain legume yields are as stable as other spring crops in long-term experiments across northern Europe,"agriculture, 0.53572
+PMC6390932,Grain legume yields are as stable as other spring crops in long-term experiments across northern Europe,"agriculture, 0.53572
 interaction science, 0.46401
 agriculture, 0.00004"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6394436,Characterizing diversity of food systems in view of sustainability transitions. A review,"security, 0.99986
+PMC6394436,Characterizing diversity of food systems in view of sustainability transitions. A review,"security, 0.99986
 agriculture, 0.00002
 agriculture, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6399567,Black Rice (Oryza sativa L.) Fermented with Lactobacillus casei Attenuates Osteoclastogenesis and Ovariectomy-Induced Osteoporosis,"protein, 0.99975
+PMC6399567,Black Rice (Oryza sativa L.) Fermented with Lactobacillus casei Attenuates Osteoclastogenesis and Ovariectomy-Induced Osteoporosis,"protein, 0.99975
 agriculture, 0.00003
 protein, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6404675,"Trade-offs and synergies between yield, labor, profit, and risk in Malawian maize-based cropping systems","agriculture, 0.72866
+PMC6404675,"Trade-offs and synergies between yield, labor, profit, and risk in Malawian maize-based cropping systems","agriculture, 0.72866
 plant, 0.25644
 agriculture, 0.01392"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6412671,The Ameliorative Effect of Silicon on Maize Plants Grown in Mg-Deficient Conditions,"protein, 0.99975
+PMC6412671,The Ameliorative Effect of Silicon on Maize Plants Grown in Mg-Deficient Conditions,"protein, 0.99975
 agriculture, 0.00003
 organism, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6417397,Towards resilience through systems-based plant breeding. A review,"agriculture, 0.86409
+PMC6417397,Towards resilience through systems-based plant breeding. A review,"agriculture, 0.86409
 security, 0.12614
 protein, 0.00966"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6417402,Food systems for sustainable development: proposals for a profound four-part transformation,"security, 0.99977
+PMC6417402,Food systems for sustainable development: proposals for a profound four-part transformation,"security, 0.99977
 agriculture, 0.00003
 agriculture, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6449481,Unmanned Aerial Vehicle-Based Phenotyping Using Morphometric and Spectral Analysis Can Quantify Responses of Wild Tomato Plants to Salinity Stress,"organism, 0.73300
+PMC6449481,Unmanned Aerial Vehicle-Based Phenotyping Using Morphometric and Spectral Analysis Can Quantify Responses of Wild Tomato Plants to Salinity Stress,"organism, 0.73300
 agriculture, 0.15013
 agriculture, 0.11676"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6471123,"The Campus as a Smart City: University of Málaga Environmental, Learning, and Research Approaches","agriculture, 0.99977
+PMC6471123,"The Campus as a Smart City: University of Málaga Environmental, Learning, and Research Approaches","agriculture, 0.99977
 security, 0.00003
 agriculture, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6471620,Plant Serine Protease Inhibitors: Biotechnology Application in Agriculture and Molecular Farming,"organism, 0.89460
+PMC6471620,Plant Serine Protease Inhibitors: Biotechnology Application in Agriculture and Molecular Farming,"organism, 0.89460
 agriculture, 0.05201
 protein, 0.04505"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6473438,Role of Silicon in Mitigation of Heavy Metal Stresses in Crop Plants,"organism, 0.44306
+PMC6473438,Role of Silicon in Mitigation of Heavy Metal Stresses in Crop Plants,"organism, 0.44306
 protein, 0.39892
 agriculture, 0.15773"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6514985,State-of-the-Art Internet of Things in Protected Agriculture,"agriculture, 0.83822
+PMC6514985,State-of-the-Art Internet of Things in Protected Agriculture,"agriculture, 0.83822
 interaction science, 0.16164
 security, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6524069,Explorative Frequency Analysis of Leaf Temperature Behavior of Maize (Zea mays subsp. mays) at Water Deficit,"organism, 0.83837
+PMC6524069,Explorative Frequency Analysis of Leaf Temperature Behavior of Maize (Zea mays subsp. mays) at Water Deficit,"organism, 0.83837
 agriculture, 0.13369
 agriculture, 0.02779"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6524378,"Glucosinolate Distribution in the Aerial Parts of sel1-10, a Disruption Mutant of the Sulfate Transporter SULTR1;2, in Mature Arabidopsis thaliana Plants","protein, 0.58345
+PMC6524378,"Glucosinolate Distribution in the Aerial Parts of sel1-10, a Disruption Mutant of the Sulfate Transporter SULTR1;2, in Mature Arabidopsis thaliana Plants","protein, 0.58345
 agriculture, 0.32876
 organism, 0.05172"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6529577,Salmonella Establishment in Agricultural Soil and Colonization of Crop Plants Depend on Soil Type and Plant Species,"organism, 0.93286
+PMC6529577,Salmonella Establishment in Agricultural Soil and Colonization of Crop Plants Depend on Soil Type and Plant Species,"organism, 0.93286
 agriculture, 0.06571
 protein, 0.00129"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6538708,Ethnomedicinal Investigation of Medicinal Plants of Chakrata Region (Uttarakhand) Used in the Traditional Medicine for Diabetes by Jaunsari Tribe,"plant, 0.51210
+PMC6538708,Ethnomedicinal Investigation of Medicinal Plants of Chakrata Region (Uttarakhand) Used in the Traditional Medicine for Diabetes by Jaunsari Tribe,"plant, 0.51210
 protein, 0.48775
 security, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6539879,Nitrate Reductase-Mediated Nitric Oxide Regulates the Leaf Shape in Arabidopsis by Mediating the Homeostasis of Reactive Oxygen Species,"protein, 0.93423
+PMC6539879,Nitrate Reductase-Mediated Nitric Oxide Regulates the Leaf Shape in Arabidopsis by Mediating the Homeostasis of Reactive Oxygen Species,"protein, 0.93423
 protein, 0.06535
 security, 0.00006"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6539957,Modified Rice Straw Enhanced Cadmium (II) Immobilization in Soil and Promoted the Degradation of Phenanthrene in Co-Contaminated Soil,"organism, 0.62674
+PMC6539957,Modified Rice Straw Enhanced Cadmium (II) Immobilization in Soil and Promoted the Degradation of Phenanthrene in Co-Contaminated Soil,"organism, 0.62674
 agriculture, 0.37295
 protein, 0.00004"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6560427,Understanding the Properties of Starch in Potatoes (Solanum tuberosum var. Agria) after Being Treated with Pulsed Electric Field Processing,"protein, 0.95006
+PMC6560427,Understanding the Properties of Starch in Potatoes (Solanum tuberosum var. Agria) after Being Treated with Pulsed Electric Field Processing,"protein, 0.95006
 agriculture, 0.04571
 security, 0.00403"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6570029,The economic value of mussel farming for uncertain nutrient removal in the Baltic Sea,"plant, 0.58290
+PMC6570029,The economic value of mussel farming for uncertain nutrient removal in the Baltic Sea,"plant, 0.58290
 agriculture, 0.22265
 agriculture, 0.18200"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6571617,"DRB1, DRB2 and DRB4 Are Required for Appropriate Regulation of the microRNA399/PHOSPHATE2 Expression Module in Arabidopsis thaliana","interaction science, 0.99420
+PMC6571617,"DRB1, DRB2 and DRB4 Are Required for Appropriate Regulation of the microRNA399/PHOSPHATE2 Expression Module in Arabidopsis thaliana","interaction science, 0.99420
 protein, 0.00565
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6587683,"Effects of Winter Cover Crops on Rice Pests, Natural Enemies, and Grain Yield in a Rice Rotation System","agriculture, 0.99962
+PMC6587683,"Effects of Winter Cover Crops on Rice Pests, Natural Enemies, and Grain Yield in a Rice Rotation System","agriculture, 0.99962
 organism, 0.00005
 class, 0.00005"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6630288,"Waterlogging Causes Early Modification in the Physiological Performance, Carotenoids, Chlorophylls, Proline, and Soluble Sugars of Cucumber Plants","protein, 0.94090
+PMC6630288,"Waterlogging Causes Early Modification in the Physiological Performance, Carotenoids, Chlorophylls, Proline, and Soluble Sugars of Cucumber Plants","protein, 0.94090
 agriculture, 0.04653
 organism, 0.01229"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6630593,Role of Silicon in Mediating Salt Tolerance in Plants: A Review,"protein, 0.75609
+PMC6630593,Role of Silicon in Mediating Salt Tolerance in Plants: A Review,"protein, 0.75609
 organism, 0.20150
 agriculture, 0.02253"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6630798,Responses of Tomato Plants under Saline Stress to Foliar Application of Copper Nanoparticles,"organism, 0.60933
+PMC6630798,Responses of Tomato Plants under Saline Stress to Foliar Application of Copper Nanoparticles,"organism, 0.60933
 protein, 0.39038
 agriculture, 0.00004"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6681330,Expression of miR159 Is Altered in Tomato Plants Undergoing Drought Stress,"protein, 0.84744
+PMC6681330,Expression of miR159 Is Altered in Tomato Plants Undergoing Drought Stress,"protein, 0.84744
 interaction science, 0.10246
 organism, 0.04969"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6681344,"The NAC Protein from Tamarix hispida, ThNAC7, Confers Salt and Osmotic Stress Tolerance by Increasing Reactive Oxygen Species Scavenging Capability","protein, 0.94707
+PMC6681344,"The NAC Protein from Tamarix hispida, ThNAC7, Confers Salt and Osmotic Stress Tolerance by Increasing Reactive Oxygen Species Scavenging Capability","protein, 0.94707
 organism, 0.03381
 protein, 0.01886"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6681968,"Isolation, cloning and expression of CCA1 gene in transgenic progeny plants of Japonica rice exhibiting altered morphological traits","interaction science, 0.86770
+PMC6681968,"Isolation, cloning and expression of CCA1 gene in transgenic progeny plants of Japonica rice exhibiting altered morphological traits","interaction science, 0.86770
 protein, 0.13217
 protein, 0.00002"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6724085,Phytolith Formation in Plants: From Soil to Cell,"protein, 0.89758
+PMC6724085,Phytolith Formation in Plants: From Soil to Cell,"protein, 0.89758
 agriculture, 0.06515
 agriculture, 0.02509"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6730492,Responses to Hydric Stress in the Seed-Borne Necrotrophic Fungus Alternaria brassicicola,"protein, 0.99978
+PMC6730492,Responses to Hydric Stress in the Seed-Borne Necrotrophic Fungus Alternaria brassicicola,"protein, 0.99978
 organism, 0.00003
 agriculture, 0.00003"
-E:\hercules\hercules-challenge-publications\data\agriculture\PMC6736833,Soil temperature and hydric potential influences the monthly variations of soil Tuber aestivum DNA in a highly productive orchard,"interaction science, 0.77087
+PMC6736833,Soil temperature and hydric potential influences the monthly variations of soil Tuber aestivum DNA in a highly productive orchard,"interaction science, 0.77087
 agriculture, 0.22784
 organism, 0.00101"
