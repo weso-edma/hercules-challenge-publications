@@ -19,7 +19,7 @@ def parseargs():
         nargs='?', default=None)
     return parser.parse_args()
 
-def show_author_results(pmc_df, articles, topics, args.output):
+def show_author_results(pmc_df, articles, topics, output):
     res = {}
     authors_str = pmc_df['authors'].values
     authors_list = [authors.split('|') for authors in authors_str]
@@ -31,8 +31,9 @@ def show_author_results(pmc_df, articles, topics, args.output):
             article_authors = pmc_row['authors'].split('|')
             if author not in article_authors:
                 continue
-            author_topics.append(article_topics)
+            author_topics += article_topics
         author_main_topics = Counter(author_topics).most_common(5)
+        author_main_topics = [t[0][0] for t in author_main_topics]
         res[author] = {
             'topics': [{
                 'labels': t.labels,
@@ -40,7 +41,7 @@ def show_author_results(pmc_df, articles, topics, args.output):
                 'descriptions': t.descs
             } for t in author_main_topics]
         }
-    _write_json_contents(res, args.output)
+    _write_json_contents(res, output)
 
 
 def main(args):

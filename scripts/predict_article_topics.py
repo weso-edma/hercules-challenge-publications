@@ -3,6 +3,7 @@ import logging
 import pickle
 import os
 import re
+import requests
 import sys
 
 import pandas as pd
@@ -11,7 +12,7 @@ from common import PMC_FILE_PATH, OUTPUT_FORMATS, load_final_pipe, show_results
 
 parentdir = os.path.dirname('..')
 sys.path.insert(0,parentdir)
-from src import parse_pmc_article
+from src.data_reader import parse_pmc_article
 
 BMC_BASE_API = 'https://www.ebi.ac.uk/europepmc/webservices/rest'
 
@@ -22,7 +23,7 @@ def clean(text):
     text = text.replace(u'\u200a', ' ')
     return re.sub(' +', ' ', text).strip()
 
-def load_articles_df(input, is_file, token):
+def load_articles_df(input, is_file):
     if is_file:
         with open(input, 'r', encoding='utf-8') as f:
             articles_ids = [line.rstrip('\n') for line in f]
@@ -53,7 +54,7 @@ def parseargs():
 
 def main(args):
     logger.info('Loading article data...')
-    pmc_df = load_articles_df(args.input, args.isFile, args.token)
+    pmc_df = load_articles_df(args.input, args.isFile)
     logger.info('Loading topic extraction model...')
     final_pipe = load_final_pipe()
     articles = pmc_df['text_cleaned'].values
