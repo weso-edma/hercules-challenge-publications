@@ -13,7 +13,7 @@ RESULTS_DIR = 'results'
 NOTEBOOK_2_RESULTS_DIR = os.path.join(RESULTS_DIR, '2_data_exploration')
 NOTEBOOK_7_RESULTS_DIR = os.path.join(RESULTS_DIR, '7_complete_system')
 
-PMC_DF_FILE_PATH = os.path.join(NOTEBOOK_2_RESULTS_DIR, 'pmc_dataframe.pkl')
+PMC_FILE_PATH = os.path.join(NOTEBOOK_2_RESULTS_DIR, 'pmc_dataframe.pkl')
 FINAL_PIPE_FILE_PATH = os.path.join(NOTEBOOK_7_RESULTS_DIR, 'final_pipe.pkl')
 
 RDF_FORMATS = {'json-ld', 'n3', 'xml', 'turtle'}
@@ -29,19 +29,21 @@ def create_pmc_graph(pmc_df, articles, topics):
     for idx, article_topics in enumerate(topics):
         text = articles[idx]
         pmc_row = pmc_df.loc[idx]
+        article_id = pmc_row['id']
         uri = f"https://www.ebi.ac.uk/europepmc/webservices/rest/{article_id}/fullTextXML"
-        pmc_id = pmc_row['id']
-        context_element = add_text_topics_to_graph(uri, gh_id, text, article_topics, g)
+        context_element = add_text_topics_to_graph(uri, article_id, text, article_topics, g)
         g.add((collection_element, NIF.hasContext, context_element))
     return g
 
 def load_final_pipe():
     import string
     import en_core_sci_lg
+    import en_core_web_md
     from collections import Counter
     from tqdm import tqdm
 
     en_core_sci_lg.load()
+    en_core_web_md.load()
     return load_object(FINAL_PIPE_FILE_PATH)
 
 def show_pmc_csv_results(pmc_df, articles, topics, out_file):
