@@ -38,7 +38,7 @@ jupyter notebook
 ```
 
 This will open a new tab in your browser with the Jupyter explorer where the different files can be explored:
-![]()
+![](./results/notebook_example.PNG)
 
 If the browser was not automatically opened, you can connect to the Jupyter client through localhost on port 8888 ([localhost:8888](http://localhost:8888)).
 
