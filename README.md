@@ -54,8 +54,8 @@ Several scripts are provided in the _scripts_ folder to execute the systems and 
 The script _run_track_predictions.py_ can be used to obtain at once all the topics assigned to every publication from the dataset. The following parameters can be passed to the script:
 | Name | Description | Compulsory | Allowed Values |
 | ---- | ----------- | ---------- | ------ |
-| -o --output | Output format of the results. If no output format is specified, results are returned in JSON by default. | No | One of _csv_, _json_, _jsonld_, _n3_, _rdf/xml_ or _ttl_ |
-| -f --format | Name of the file where the results will be saved. If no output file is specified, results will be written to the console instead. | No | Any valid filename. |
+| -f --format | Output format of the results. If no output format is specified, results are returned in JSON by default. | No | One of _csv_, _json_, _jsonld_, _n3_, _rdf/xml_ or _ttl_ |
+| -o --output | Name of the file where the results will be saved. If no output file is specified, results will be written to the console instead. | No | Any valid filename. |
 
 For more additional information about how to run the script, you can execute the following command:
 ```bash
@@ -74,8 +74,8 @@ The script _predict_article_topics.py_ can be used to obtain the topics for a gi
 | ---- | ----------- | ---------- | ------ |
 | input | ID of the PMC article to extract the topics from (e.g. PMC3310815). If the --isFile flag is set, file with the ids of the publications | __Yes__ | Any PMC id or file. |
 | --isFile | If present, this flag indicates that the input passed to the script is a file with the ids of each publication delimited by newlines. | No | True or False |
-| -o --output | Output format of the results. If no output format is specified, results are returned in JSON by default. | No | One of _csv_, _json_, _jsonld_, _n3_ or _ttl_ |
-| -f --format | Name of the file where the results will be saved. If no output file is specified, results will be written to the console instead. | No | Any valid filename. |
+| -f --format | Output format of the results. If no output format is specified, results are returned in JSON by default. | No | One of _csv_, _json_, _jsonld_, _n3_ or _ttl_ |
+| -o --output | Name of the file where the results will be saved. If no output file is specified, results will be written to the console instead. | No | Any valid filename. |
 
 For more additional information about how to run the script, you can execute the following command:
 ```bash
@@ -93,6 +93,33 @@ The script _obtain_track_author_topics.py_ can be used to obtain the topics assi
 ```bash
 python scripts/obtain_track_author_topics.py -h
 ```
+
+
+## Using the demo API
+An API has been deployed at http://hercules-challenge.weso.computing.network where the different functionality of the system can be tested out without needing to manually run the scripts with Python.
+
+For the Git track, we provide the __api/publication/topics__ GET endpoint to predict the topics of a given GitHub repository. The following parameters can be sent in the JSON body:
+| Name | Description | Compulsory | Allowed Values |
+| ---- | ----------- | ---------- | ------ |
+| input | ID of the PMC article to extract the topics from (e.g. PMC3310815) | __Yes__ | Any PMC id. |
+| format | Output format of the results. If no output format is specified, results are returned in JSON by default. | No | One of _json_, _jsonld_, _n3_ or _ttl_ |
+
+An example body passed to the API could be as follows:
+```json
+{
+  "input": "PMC3310815",
+  "format": "json"
+}
+```
+
+The response will be as follows:
+```json
+{
+  "task_id": "YOUR_TASK_ID"
+}
+```
+
+A task identifier will be returned. We can query the __api/prediction/<task_id>__ endpoint to get the status of our task.
 
 ## Results obtained
 The results obtained for the track dataset can be found in the [script_results folder](./results/9_scripts_results). These results are provided in multiple formats (_.csv_, _.json_, _.jsonld_, and _.ttl_).
