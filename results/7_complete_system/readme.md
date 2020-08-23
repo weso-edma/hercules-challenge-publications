@@ -3,5 +3,4 @@
 * Extract the file in this directory.
 * The contents of this directory should look like:
   * readme.md (this file)
-  * protocol_results.csv
   * final_pipe.pkl
