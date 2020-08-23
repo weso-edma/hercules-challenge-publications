@@ -40,12 +40,14 @@ jupyter notebook
 This will open a new tab in your browser with the Jupyter explorer where the different files can be explored:
 ![]()
 
-If the browser was not automatically opened, you can connect to the Jupyter client through localhost on port 8888 ([localhost:8888](http://localhost:8888).
+If the browser was not automatically opened, you can connect to the Jupyter client through localhost on port 8888 ([localhost:8888](http://localhost:8888)).
 
 Now you can click on any of the notebooks to explore its content or even rerun and modify the cells. Instructions on how to do this are provided in the [official Notebook docs](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html).
 
+It is recommended to run the notebooks in a sequential manner, in the order indicated by their first filename number (i.e. notebook _1_data_fetching.ipynb_ should be run before _2_Data_Exploration.ipynb_ and so on). Non-sequential execution is not recommended and should be avoided, since the execution of one notebook may depend on outputs produced by the previous ones.
+
 ## How to run the systems
-> __Note__: In order to run the systems you must first obtain the models used to perform the topic extraction. Due to size constraints, they are not included in this repositories. There are two main alternatives to obtain the models: the first one is the execution of every notebook to retrain and build the systems for scratch, but this may take some time; the second alternative is to go to the [complete_system directory]() and follow the instructions to download the trained models.
+> __Note__: In order to run the systems you must first obtain the models used to perform the topic extraction. Due to size constraints, they are not included in this repositories. There are two main alternatives to obtain the models: the first one is the execution of every notebook to retrain and build the systems for scratch, but this may take some time; the second alternative is to go to the [complete_system directory](./results/7_complete_system) and follow the instructions to download the trained models.
 Several scripts are provided in the _scripts_ folder to execute the systems and reproduce the results obtained for this track. In the following sections we will explain how to explain the main functionality of each script and how it can be executed.
 
 ### Obtain track results
