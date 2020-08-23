@@ -51,10 +51,10 @@ It is recommended to run the notebooks in a sequential manner, in the order indi
 Several scripts are provided in the _scripts_ folder to execute the systems and reproduce the results obtained for this track. In the following sections we will explain the main functionality of each script and how they can be executed.
 
 ### Compute track results
-The script _run_track_predictions.py_ can be used to obtain at once all the topics assigned to every publication from the dataset.
+The script _run_track_predictions.py_ can be used to obtain at once all the topics assigned to every publication from the dataset. The following parameters can be passed to the script:
 | Name | Description | Compulsory | Allowed Values |
 | ---- | ----------- | ---------- | ------ |
-| -o --output | Output format of the results. If no output format is specified, results are returned in JSON by default. | No | One of _csv_, _json_, _jsonld_, _n3_ or _ttl_ |
+| -o --output | Output format of the results. If no output format is specified, results are returned in JSON by default. | No | One of _csv_, _json_, _jsonld_, _n3_, _rdf/xml_ or _ttl_ |
 | -f --format | Name of the file where the results will be saved. If no output file is specified, results will be written to the console instead. | No | Any valid filename. |
 
 For more additional information about how to run the script, you can execute the following command:
@@ -69,7 +69,24 @@ python scripts/run_track_predictions.py -o results.ttl -f ttl
 ```
 
 ### Predict publication topics
+The script _predict_article_topics.py_ can be used to obtain the topics for a given article or list of articles. The following parameters can be passed to the string:
+| Name | Description | Compulsory | Allowed Values |
+| ---- | ----------- | ---------- | ------ |
+| input | ID of the PMC article to extract the topics from (e.g. PMC3310815). If the --isFile flag is set, file with the ids of the publications | __Yes__ | Any PMC id or file. |
+| --isFile | If present, this flag indicates that the input passed to the script is a file with the ids of each publication delimited by newlines. | No | True or False |
+| -o --output | Output format of the results. If no output format is specified, results are returned in JSON by default. | No | One of _csv_, _json_, _jsonld_, _n3_ or _ttl_ |
+| -f --format | Name of the file where the results will be saved. If no output file is specified, results will be written to the console instead. | No | Any valid filename. |
 
+For more additional information about how to run the script, you can execute the following command:
+```bash
+python scripts/predict_article_topics.py -h
+```
+
+In the following example, we will be running the script twice. The first execution will print the results in console and in json format (default values). The second one we will use the list of article ids from the [data directory](./data/agriculture/pmc_ids.txt) to predict the topics for those articles. This will be equivalent to running the _predict_article_topics.py_ script. After that, we will save the results to the file _results.ttl_ in the turtle format:
+```bash
+python scripts/predict_article_topics.py PMC3310815
+python scripts/predict_article_topics.py data/agriculture/pmc_ids.txt --isFile -o results.ttl -f ttl
+```
 
 ### Obtain author topics
 
