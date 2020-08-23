@@ -98,7 +98,7 @@ python scripts/obtain_track_author_topics.py -h
 ## Using the demo API
 An API has been deployed at http://hercules-challenge.weso.computing.network where the different functionality of the system can be tested out without needing to manually run the scripts with Python.
 
-For the Git track, we provide the __api/publication/topics__ GET endpoint to predict the topics of a given GitHub repository. The following parameters can be sent in the JSON body:
+For the Git track, we provide the __api/publication/topics__ GET endpoint to predict the topics of a given publication. The following parameters can be sent in the JSON body:
 | Name | Description | Compulsory | Allowed Values |
 | ---- | ----------- | ---------- | ------ |
 | input | ID of the PMC article to extract the topics from (e.g. PMC3310815) | __Yes__ | Any PMC id. |
