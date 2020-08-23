@@ -89,7 +89,10 @@ python scripts/predict_article_topics.py data/agriculture/pmc_ids.txt --isFile -
 ```
 
 ### Obtain author topics
-
+The script _obtain_track_author_topics.py_ can be used to obtain the topics assigned to each author from the dataset. The script can be run with the following command:
+```bash
+python scripts/obtain_track_author_topics.py -h
+```
 
 ## Results obtained
 The results obtained for the track dataset can be found in the [script_results folder](./results/9_script_results). These results are provided in multiple formats (_.csv_, _.json_, _.jsonld_, and _.ttl_).
